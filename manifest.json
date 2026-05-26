@@ -1,0 +1,18 @@
+{
+  "name": "دفتر ميزانيتي",
+  "short_name": "ميزانيتي",
+  "description": "تتبع الميزانية الشهرية",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f1a",
+  "theme_color": "#0b0f1a",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
