@@ -272,7 +272,9 @@ function updateExportLink(data){
   const html = document.documentElement.outerHTML;
   // حقن البيانات في الـ script tag الخاص بها
   const injected = html.replace(/\/\/ \[SNAPSHOT\].*?\[\/SNAPSHOT\]/s,
-    `// [SNAPSHOT]\nconst __SNAPSHOT__=${JSON.stringify(data)};\n// [/SNAPSHOT]`);
+    `// [SNAPSHOT]
+const __SNAPSHOT__={"salary": 8718, "commits": [{"id": 1, "name": "قسط البنك", "amount": 2750, "type": "التزام ثابت", "icon": "🏦", "cls": "ic-bank"}, {"id": 2, "name": "الشغالة", "amount": 1300, "type": "التزام شهري", "icon": "👩‍🍳", "cls": "ic-maid"}, {"id": 3, "name": "الجوال", "amount": 750, "type": "فاتورة", "icon": "📱", "cls": "ic-phone"}, {"id": 4, "name": "الكهرباء", "amount": 360, "type": "فاتورة", "icon": "⚡", "cls": "ic-elec"}], "entries": [], "nextCid": 5, "nextEid": 1};
+// [/SNAPSHOT]`);
   const blob = new Blob([injected],{type:'text/html'});
   btn.href = URL.createObjectURL(blob);
   btn.download = 'my-budget.html';
