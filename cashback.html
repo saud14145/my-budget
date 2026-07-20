@@ -261,7 +261,10 @@
         <div>الفئة</div><div>النسبة %</div><div>الحد الشهري</div><div></div>
       </div>
       <div id="ahliCategoriesGrid" class="settings-grid"></div>
-      <div class="row-actions"><button class="btn small secondary" onclick="addAhliCategoryRow()">+ إضافة فئة</button></div>
+      <div class="row-actions">
+        <button class="btn small secondary" onclick="addAhliCategoryRow()">+ إضافة فئة</button>
+        <button class="btn small" onclick="reinferAllAhliCategories()">إعادة استنتاج فئات كل عمليات الأهلي</button>
+      </div>
     </div>
     <div class="card">
       <h3>كلمات الرسائل المتجاهلة</h3>
@@ -646,19 +649,59 @@ function tryLinkAhliRefund(blockText){
   best.refund = refundAmt;
   best.pct = best.purchase>0 ? refundAmt/best.purchase : 0;
   best.linkStatus = 'مرتبط';
-  const catInfo = getAhliCategoryInfo(best.categoryAhli || 'غير مصنّف');
-  if(catInfo.rate > 0 && best.purchase > 0){
-    const expectedRate = catInfo.rate;
-    // فارق واضح (أكثر من نصف النسبة المتوقعة) قد يعني الوصول للحد الشهري لهذه الفئة
-    if(best.pct < expectedRate * 0.5){
-      best.notes = `الفئة: ${best.categoryAhli} (${(expectedRate*100).toFixed(1)}%) — الاسترداد الفعلي أقل من المتوقع، يُحتمل الوصول للحد الشهري`;
-    } else {
-      best.notes = `الفئة: ${best.categoryAhli}`;
-    }
-  } else if(best.categoryAhli && best.categoryAhli !== 'غير مصنّف'){
-    best.notes = `الفئة: ${best.categoryAhli}`;
-  }
+  applyAhliCategoryInference(best);
   return true;
+}
+
+/* استنتاج فئة الأهلي من نسبة الاسترداد الفعلية بالرسالة (وليس من اسم المحل فقط) */
+function applyAhliCategoryInference(txn){
+  if(!(txn.purchase > 0)){
+    txn.notes = txn.categoryAhli && txn.categoryAhli!=='غير مصنّف' ? `الفئة: ${txn.categoryAhli}` : '';
+    return;
+  }
+  const actualPct = txn.pct;
+  const cats = DATA.settings.ahliCategories.filter(c=>c.name!=='غير مصنّف');
+  const TOL = 0.005; // نصف نقطة مئوية هامش تسامح (فروق التقريب على الريالات)
+  const closeTo = rate => Math.abs(rate - actualPct) <= TOL;
+  const storeGuess = getAhliCategoryForStore(txn.merchant);
+  const storeInfo = storeGuess && storeGuess!=='غير مصنّف' ? getAhliCategoryInfo(storeGuess) : null;
+
+  // الأولوية: لو فئة المحل معروفة والنسبة الفعلية تطابقها -> تأكيد مباشر
+  if(storeInfo && closeTo(storeInfo.rate)){
+    txn.categoryAhli = storeGuess;
+    txn.notes = `الفئة: ${storeGuess} (مؤكدة من نسبة الاسترداد ${(actualPct*100).toFixed(1)}%)`;
+    return;
+  }
+
+  const matches = cats.filter(c=>closeTo(c.rate));
+
+  if(matches.length === 1){
+    // النسبة تطابق فئة واحدة بوضوح (تخالف تصنيف المحل السابق إن وجد)
+    txn.categoryAhli = matches[0].name;
+    txn.notes = storeGuess && storeGuess!=='غير مصنّف'
+      ? `الفئة: ${matches[0].name} (مستنتجة من النسبة ${(actualPct*100).toFixed(1)}%، تخالف تصنيف المحل السابق "${storeGuess}")`
+      : `الفئة: ${matches[0].name} (مستنتجة من نسبة الاسترداد ${(actualPct*100).toFixed(1)}%)`;
+    const s = DATA.stores.find(s=>s.merchant.trim().toLowerCase()===txn.merchant.trim().toLowerCase());
+    if(s && (!s.categoryAhli || s.categoryAhli==='غير مصنّف')) s.categoryAhli = matches[0].name;
+  } else if(matches.length > 1){
+    // أكثر من فئة تشترك بنفس النسبة (مثلاً 5% لعدة فئات) — استخدم تصنيف المحل كفاصل إن كان أحد الخيارات
+    const tieBreak = matches.find(c=>c.name===storeGuess);
+    if(tieBreak){
+      txn.categoryAhli = tieBreak.name;
+      txn.notes = `الفئة: ${tieBreak.name} (نسبة ${(actualPct*100).toFixed(1)}% مشتركة بين عدة فئات، رُجّحت حسب تصنيف المحل)`;
+    } else {
+      const options = matches.map(c=>c.name).join(' / ');
+      txn.categoryAhli = storeGuess;
+      txn.notes = `نسبة ${(actualPct*100).toFixed(1)}% تطابق أكثر من فئة (${options}) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد`;
+    }
+  } else if(storeInfo){
+    // النسبة الفعلية لا تطابق أي فئة معروفة، لكن فئة المحل معروفة ومتوقعها أعلى بوضوح -> يُحتمل الوصول للحد الشهري
+    txn.categoryAhli = storeGuess;
+    txn.notes = `الفئة: ${storeGuess} (${(storeInfo.rate*100).toFixed(1)}% متوقعة) — الاسترداد الفعلي ${(actualPct*100).toFixed(1)}% لا يطابقها، يُحتمل الوصول للحد الشهري`;
+  } else {
+    txn.categoryAhli = 'غير مصنّف';
+    txn.notes = `نسبة استرداد غير معروفة (${(actualPct*100).toFixed(1)}%) — لا تطابق أي فئة معرّفة، وفئة المحل غير محددة`;
+  }
 }
 
 function writeFransiPurchase(blockText){
@@ -733,7 +776,11 @@ function backfillAhliCategories(){
   let changed = false;
   DATA.transactions.forEach(t=>{
     if(t.bank==='الأهلي' && !t.categoryAhli){
-      t.categoryAhli = getAhliCategoryForStore(t.merchant);
+      if(t.linkStatus==='مرتبط' && t.purchase>0){
+        applyAhliCategoryInference(t);
+      } else {
+        t.categoryAhli = getAhliCategoryForStore(t.merchant);
+      }
       changed = true;
     }
   });
@@ -925,6 +972,17 @@ function updateAhliCategory(i,field,val){
 }
 function removeAhliCategory(i){ DATA.settings.ahliCategories.splice(i,1); saveData(); renderAhliCategories(); }
 function addAhliCategoryRow(){ DATA.settings.ahliCategories.push({name:'فئة جديدة', rate:0, cap:0}); saveData(); renderAhliCategories(); }
+function reinferAllAhliCategories(){
+  let n = 0;
+  DATA.transactions.forEach(t=>{
+    if(t.bank==='الأهلي' && t.linkStatus==='مرتبط' && t.purchase>0){
+      applyAhliCategoryInference(t);
+      n++;
+    }
+  });
+  saveData(); renderAll();
+  toast(`تم إعادة استنتاج الفئة لـ ${n} عملية`);
+}
 function recalcFransiRates(){
   DATA.transactions.forEach(t=>{
     if(t.bank!=='الفرنسي') return;
