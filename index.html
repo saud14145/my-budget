@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
+<html lang="ar" dir="rtl" data-immersive-translate-page-theme="light"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>دفتر تسعير منتجات فاطمة</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500;600;700&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500;600;700&amp;family=Cairo:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
 <style>
   :root{
     --ink: #1F3A2E;
@@ -165,21 +164,70 @@
 </header>
 
 <div class="tabs">
-  <div class="tab active" data-tab="materials">المواد الخام</div>
-  <div class="tab" data-tab="products">تسعير المنتجات</div>
+  <div class="tab" data-tab="materials">المواد الخام</div>
+  <div class="tab active" data-tab="products">تسعير المنتجات</div>
   <div class="tab" data-tab="sync">المزامنة مع Git</div>
 </div>
 
 <div class="wrap">
   <!-- MATERIALS PANEL -->
-  <div class="panel" id="panel-materials">
+  <div class="panel" id="panel-materials" style="display: none;">
     <h2>المواد الخام</h2>
     <p class="hint">أدخلي كل ماده مرة وحدة — تكلفة الوحدة تُحسب تلقائيًا من سعر العبوة وعدد الوحدات فيها.</p>
     <table>
       <thead>
         <tr><th>اسم المادة</th><th>وحدات/عبوة</th><th>سعر العبوة</th><th>تكلفة الوحدة</th><th></th></tr>
       </thead>
-      <tbody id="materials-body"></tbody>
+      <tbody id="materials-body">
+      <tr>
+        <td>ورق مقمش 240</td>
+        <td class="num">50</td>
+        <td class="num">٢٤</td>
+        <td class="num"><b>٠٫٤٨</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(1)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>ورق مقمش 180</td>
+        <td class="num">50</td>
+        <td class="num">١٩</td>
+        <td class="num"><b>٠٫٣٨</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(2)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>ورق لامع 100 قرام</td>
+        <td class="num">50</td>
+        <td class="num">١٩</td>
+        <td class="num"><b>٠٫٣٨</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(3)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>ورق استكر لامع</td>
+        <td class="num">50</td>
+        <td class="num">٢٩</td>
+        <td class="num"><b>٠٫٥٨</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(4)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>ورق معطر</td>
+        <td class="num">50</td>
+        <td class="num">٢٠</td>
+        <td class="num"><b>٠٫٤</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(5)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>كوب 7 اونز</td>
+        <td class="num">50</td>
+        <td class="num">٧</td>
+        <td class="num"><b>٠٫١٤</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(6)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>كوب 9 اونز</td>
+        <td class="num">50</td>
+        <td class="num">٧</td>
+        <td class="num"><b>٠٫١٤</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(7)">حذف</button></td>
+      </tr></tbody>
     </table>
     <div class="grid-form">
       <div><label>اسم المادة</label><input type="text" id="m-name" placeholder="مثال: ورق مقمش 240"></div>
@@ -190,10 +238,22 @@
   </div>
 
   <!-- PRODUCTS PANEL -->
-  <div class="panel" id="panel-products" style="display:none;">
+  <div class="panel" id="panel-products" style="display: block;">
     <h2>منتجاتك</h2>
     <p class="hint">اضغطي على المواد المستخدمة في المنتج وحددي الكمية — الباقي يتحسب تلقائي.</p>
-    <div id="products-list"></div>
+    <div id="products-list"><div class="prod-card">
+      <div class="stamp bad">خاسر · ؜-٨٦%</div>
+      <h3>ل</h3>
+      <div class="prod-meta">
+        <div><span class="muted">تكلفة المواد</span><b>٠٫٨٦ ر.س</b></div>
+        <div><span class="muted">اليد العاملة</span><b>١ ر.س</b></div>
+        <div><span class="muted">إجمالي التكلفة</span><b>١٫٨٦ ر.س</b></div>
+        <div><span class="muted">سعر البيع</span><b>١ ر.س</b></div>
+        <div><span class="muted">الربح</span><b>؜-٠٫٨٦ ر.س</b></div>
+      </div>
+      <div class="bom-list"><span>ورق مقمش 240 × 1 = ٠٫٤٨ ر.س</span><span>ورق مقمش 180 × 1 = ٠٫٣٨ ر.س</span></div>
+      <div class="actions-row"><button class="btn-del" onclick="deleteProduct(1)">حذف المنتج</button></div>
+    </div></div>
 
     <hr class="divider">
     <h2 style="font-size:20px;">إضافة منتج جديد</h2>
@@ -203,14 +263,35 @@
       <div><label>سعر البيع</label><input type="number" id="p-price" placeholder="4"></div>
       <div></div>
     </div>
-    <div class="chip-grid" id="p-chip-grid"></div>
+    <div class="chip-grid" id="p-chip-grid"><div class="chip " onclick="toggleChip(event, 1)">
+      <span>ورق مقمش 240</span>
+      
+    </div><div class="chip " onclick="toggleChip(event, 2)">
+      <span>ورق مقمش 180</span>
+      
+    </div><div class="chip " onclick="toggleChip(event, 3)">
+      <span>ورق لامع 100 قرام</span>
+      
+    </div><div class="chip " onclick="toggleChip(event, 4)">
+      <span>ورق استكر لامع</span>
+      
+    </div><div class="chip " onclick="toggleChip(event, 5)">
+      <span>ورق معطر</span>
+      
+    </div><div class="chip " onclick="toggleChip(event, 6)">
+      <span>كوب 7 اونز</span>
+      
+    </div><div class="chip " onclick="toggleChip(event, 7)">
+      <span>كوب 9 اونز</span>
+      
+    </div></div>
     <div class="actions-row">
       <button class="btn-brass" onclick="addProduct()">+ حفظ المنتج</button>
     </div>
   </div>
 
   <!-- SYNC PANEL -->
-  <div class="panel" id="panel-sync" style="display:none;">
+  <div class="panel" id="panel-sync" style="display: none;">
     <h2>المزامنة التلقائية مع Git</h2>
     <p class="hint">اربطي الدفتر بمستودع على GitHub — كل تغيير (إضافة/حذف) يُرفع تلقائيًا كنسخة كاملة من الملف بعد ثوانٍ من التوقف عن الكتابة. تقدرين أيضًا ترفعين أو تجلبين آخر نسخة يدويًا.</p>
 
@@ -236,7 +317,7 @@
       <button class="btn-del" onclick="forgetSavedToken()">انسي التوكن من هذا الجهاز</button>
     </div>
 
-    <div id="sync-status" class="muted" style="margin-top:14px; font-weight:700;"></div>
+    <div id="sync-status" class="muted" style="margin-top: 14px; font-weight: 700; color: var(--brass-deep);">جاري المزامنة مع جيت هب...</div>
   </div>
 </div>
 
@@ -246,8 +327,7 @@
 
 <script>
 // ---------------- DATA (hardcoded — replaced on export) ----------------
-let DATA = {"materials": [{"id": 1, "name": "ورق مقمش 240", "units": 50, "price": 24}, {"id": 2, "name": "ورق مقمش 180", "units": 50, "price": 19}, {"id": 3, "name": "ورق لامع 100 قرام", "units": 50, "price": 19}, {"id": 4, "name": "ورق استكر لامع", "units": 50, "price": 29}, {"id": 5, "name": "ورق معطر", "units": 50, "price": 20}, {"id": 6, "name": "كوب 7 اونز", "units": 50, "price": 7}, {"id": 7, "name": "كوب 9 اونز", "units": 50, "price": 7}], "products": [], "nextMatId": 8, "nextProdId": 1, "settings": {"owner": "", "repo": "", "branch": "main", "path": "index.html", "autoSync": false}};
-
+let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7}],"products":[{"id":1,"name":"ل","labor":1,"price":1,"items":[{"materialId":1,"qty":1},{"materialId":2,"qty":1}]}],"nextMatId":8,"nextProdId":2,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
 // NOTE: the GitHub token is intentionally kept OUT of DATA (and therefore out of any
 // exported/pushed file) because GitHub's push-protection rejects commits containing
 // recognizable secrets. Instead it is saved in this browser's localStorage only, so it
@@ -268,14 +348,6 @@ function forgetSavedToken(){
   setSyncStatus('تم نسيان التوكن من هذا الجهاز', 'idle');
 }
 loadSavedToken();
-
-let hasUnsyncedChanges = false;
-window.addEventListener('beforeunload', function(e){
-  if(hasUnsyncedChanges){
-    e.preventDefault();
-    e.returnValue = '';
-  }
-});
 
 let pickerSelections = {}; // {materialId: qty} for the "new product" form in progress
 
@@ -433,12 +505,6 @@ function buildFullHtml(){
     /let DATA = \{.*?\};\s*\n/s,
     `let DATA = ${dataStr};\n`
   );
-  // Never bake a transient "syncing..." message into the saved snapshot —
-  // it gets regenerated by JS on load anyway.
-  fullHtml = fullHtml.replace(
-    /(<div id="sync-status"[^>]*>)[\s\S]*?(<\/div>)/,
-    '$1$2'
-  );
   return fullHtml;
 }
 
@@ -572,7 +638,6 @@ async function pullFromGithub(){
 
 let autoSyncTimer = null;
 function scheduleAutoSync(){
-  hasUnsyncedChanges = true;
   const s = DATA.settings;
   if(!s || !s.autoSync || !sessionToken || !s.owner || !s.repo) return;
   setSyncStatus('تعديل غير محفوظ — سترفع المزامنة تلقائيًا خلال لحظات...', 'pending');
@@ -584,7 +649,6 @@ async function doSync(message){
   setSyncStatus('جاري المزامنة مع جيت هب...', 'pending');
   try{
     await pushToGithub(message);
-    hasUnsyncedChanges = false;
     setSyncStatus('تمت المزامنة بنجاح ✓ ' + new Date().toLocaleTimeString('ar-SA'), 'ok');
   }catch(e){
     setSyncStatus('خطأ بالمزامنة: ' + e.message, 'err');
@@ -606,5 +670,6 @@ async function saveAndSync(){
 renderMaterials();
 renderProducts();
 </script>
-</body>
-</html>
+
+
+<div id="immersive-translate-popup" style="all: initial"></div><div id="immersive-translate-popup" style="all: initial"></div><div id="immersive-translate-popup" style="all: initial"></div></body><div id="immersive-translate-popup" style="all: initial"></div></html>
