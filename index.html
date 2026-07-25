@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>دفتر تسعير منتجات فاطمة</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500;600;700&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink: #1F3A2E;
+    --ink-2: #2F5233;
+    --parchment: #FAF6EC;
+    --paper: #FFFFFF;
+    --line: #E4DCC8;
+    --brass: #B08D57;
+    --brass-deep: #8C6D3F;
+    --clay: #B0603F;
+    --text: #2A2A24;
+    --muted: #7A7566;
+    --good: #3E7A4B;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--parchment);
+    background-image:
+      repeating-linear-gradient(0deg, rgba(0,0,0,0.015) 0px, rgba(0,0,0,0.015) 1px, transparent 1px, transparent 28px);
+    font-family:'Cairo', sans-serif;
+    color:var(--text);
+    min-height:100vh;
+    padding-bottom:60px;
+  }
+  header{
+    background:var(--ink);
+    color:#F3EFE2;
+    padding:26px 20px 22px;
+    position:relative;
+    overflow:hidden;
+  }
+  header::after{
+    content:"";
+    position:absolute; inset:0;
+    background:repeating-linear-gradient(135deg, rgba(255,255,255,0.03) 0 2px, transparent 2px 14px);
+    pointer-events:none;
+  }
+  .eyebrow{
+    font-size:12px; letter-spacing:2px; color:var(--brass); font-weight:700;
+    text-transform:uppercase;
+  }
+  h1{
+    font-family:'Markazi Text', serif;
+    font-size:34px; margin:4px 0 0; font-weight:700;
+    color:#FBF8F0;
+  }
+  .sub{font-size:13px; color:#C9C2AD; margin-top:6px;}
+
+  .tabs{
+    display:flex; gap:8px; padding:14px 16px 0; max-width:920px; margin:0 auto;
+  }
+  .tab{
+    flex:1; text-align:center; padding:12px 8px; border-radius:10px 10px 0 0;
+    background:#EFE7D4; color:var(--muted); font-weight:700; font-size:14px;
+    cursor:pointer; border:1px solid var(--line); border-bottom:none;
+    transition:all .15s;
+  }
+  .tab.active{ background:var(--paper); color:var(--ink); }
+
+  .wrap{ max-width:920px; margin:0 auto; padding:0 16px; }
+  .panel{
+    background:var(--paper); border:1px solid var(--line); border-radius:0 0 12px 12px;
+    padding:20px; box-shadow:0 2px 10px rgba(31,58,46,0.05);
+  }
+  .panel h2{
+    font-family:'Markazi Text', serif; font-size:24px; margin:0 0 4px; color:var(--ink);
+  }
+  .panel p.hint{ color:var(--muted); font-size:13px; margin:0 0 18px; }
+
+  table{ width:100%; border-collapse:collapse; font-size:14px; }
+  thead th{
+    text-align:right; font-size:12px; color:var(--muted); font-weight:700;
+    border-bottom:2px solid var(--ink); padding:8px 6px;
+  }
+  tbody td{ padding:9px 6px; border-bottom:1px solid var(--line); vertical-align:middle; }
+  tbody tr:hover{ background:#FAF8F0; }
+  .num{ font-variant-numeric: tabular-nums; }
+  .muted{ color:var(--muted); font-size:12px; }
+
+  input[type=text], input[type=number]{
+    border:1px solid var(--line); border-radius:8px; padding:8px 10px;
+    font-family:'Cairo',sans-serif; font-size:14px; width:100%; background:#FFFEFC;
+  }
+  input:focus{ outline:2px solid var(--brass); outline-offset:1px; }
+
+  .grid-form{
+    display:grid; grid-template-columns: 2fr 1fr 1fr auto; gap:8px; align-items:end; margin-top:16px;
+  }
+  .grid-form label{ font-size:11px; color:var(--muted); display:block; margin-bottom:3px;}
+  @media (max-width:640px){
+    .grid-form{ grid-template-columns: 1fr 1fr; }
+  }
+
+  button{
+    font-family:'Cairo',sans-serif; font-weight:700; border:none; border-radius:9px;
+    cursor:pointer; transition:transform .1s;
+  }
+  button:active{ transform:scale(0.97); }
+  .btn-brass{ background:var(--brass); color:#fff; padding:10px 16px; font-size:14px;}
+  .btn-brass:hover{ background:var(--brass-deep); }
+  .btn-ghost{ background:transparent; color:var(--clay); border:1px solid var(--clay); padding:8px 12px; font-size:13px;}
+  .btn-del{ background:#F4E9E4; color:var(--clay); padding:6px 10px; font-size:12px; }
+  .btn-ink{ background:var(--ink); color:#fff; padding:12px 20px; font-size:15px; }
+
+  .divider{ border:none; border-top:1px dashed var(--line); margin:22px 0; }
+
+  /* chips for material picker */
+  .chip-grid{ display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; }
+  .chip{
+    border:1.5px solid var(--line); border-radius:20px; padding:7px 14px; font-size:13px;
+    cursor:pointer; background:#fff; color:var(--text); user-select:none;
+    display:flex; align-items:center; gap:6px;
+  }
+  .chip.on{
+    background:var(--ink); color:#fff; border-color:var(--ink);
+  }
+  .chip .qty{
+    width:52px; padding:3px 6px; border-radius:6px; border:none; font-size:12px;
+    background:rgba(255,255,255,0.9); color:var(--ink); text-align:center;
+  }
+  .chip.on .qty{ background:#fff; }
+
+  /* product cards */
+  .prod-card{
+    border:1px solid var(--line); border-radius:12px; padding:16px; margin-bottom:14px;
+    background:linear-gradient(180deg, #fff, #FDFBF6);
+    position:relative;
+  }
+  .prod-card h3{ font-family:'Markazi Text', serif; font-size:22px; margin:0 0 2px; color:var(--ink); }
+  .prod-meta{ display:flex; flex-wrap:wrap; gap:18px; margin:10px 0; font-size:13px; }
+  .prod-meta div b{ display:block; font-size:16px; }
+  .stamp{
+    position:absolute; left:14px; top:14px; font-size:11px; font-weight:800; letter-spacing:1px;
+    padding:5px 10px; border-radius:6px; transform:rotate(-4deg);
+  }
+  .stamp.good{ background:#E7F1E5; color:var(--good); border:1.5px dashed var(--good); }
+  .stamp.bad{ background:#F7E7E2; color:var(--clay); border:1.5px dashed var(--clay); }
+  .bom-list{ font-size:12.5px; color:var(--muted); border-top:1px dashed var(--line); padding-top:8px; margin-top:6px; }
+  .bom-list span{ display:inline-block; margin-left:12px; }
+
+  .actions-row{ display:flex; gap:8px; margin-top:10px; }
+
+  .footer-bar{
+    position:fixed; bottom:0; left:0; right:0; background:var(--ink); padding:12px 16px;
+    display:flex; justify-content:center; gap:10px; box-shadow:0 -3px 10px rgba(0,0,0,0.15);
+  }
+  .empty{ text-align:center; padding:30px 10px; color:var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">دفتر تسعير — متجر فاطمة</div>
+  <h1>حاسبة تكلفة المنتجات</h1>
+  <div class="sub">أدخلي المواد الخام مرة، ثم ركّبي منتجاتك واحسبي الربح تلقائيًا</div>
+</header>
+
+<div class="tabs">
+  <div class="tab active" data-tab="materials">المواد الخام</div>
+  <div class="tab" data-tab="products">تسعير المنتجات</div>
+  <div class="tab" data-tab="sync">المزامنة مع Git</div>
+</div>
+
+<div class="wrap">
+  <!-- MATERIALS PANEL -->
+  <div class="panel" id="panel-materials">
+    <h2>المواد الخام</h2>
+    <p class="hint">أدخلي كل ماده مرة وحدة — تكلفة الوحدة تُحسب تلقائيًا من سعر العبوة وعدد الوحدات فيها.</p>
+    <table>
+      <thead>
+        <tr><th>اسم المادة</th><th>وحدات/عبوة</th><th>سعر العبوة</th><th>تكلفة الوحدة</th><th></th></tr>
+      </thead>
+      <tbody id="materials-body"></tbody>
+    </table>
+    <div class="grid-form">
+      <div><label>اسم المادة</label><input type="text" id="m-name" placeholder="مثال: ورق مقمش 240"></div>
+      <div><label>وحدات/عبوة</label><input type="number" id="m-units" placeholder="50"></div>
+      <div><label>سعر العبوة</label><input type="number" id="m-price" placeholder="24"></div>
+      <div><button class="btn-brass" onclick="addMaterial()">+ إضافة ماده</button></div>
+    </div>
+  </div>
+
+  <!-- PRODUCTS PANEL -->
+  <div class="panel" id="panel-products" style="display:none;">
+    <h2>منتجاتك</h2>
+    <p class="hint">اضغطي على المواد المستخدمة في المنتج وحددي الكمية — الباقي يتحسب تلقائي.</p>
+    <div id="products-list"></div>
+
+    <hr class="divider">
+    <h2 style="font-size:20px;">إضافة منتج جديد</h2>
+    <div class="grid-form">
+      <div><label>اسم المنتج</label><input type="text" id="p-name" placeholder="مثال: كوب قهوة 8 اونز"></div>
+      <div><label>تكلفة اليد العاملة</label><input type="number" id="p-labor" placeholder="2"></div>
+      <div><label>سعر البيع</label><input type="number" id="p-price" placeholder="4"></div>
+      <div></div>
+    </div>
+    <div class="chip-grid" id="p-chip-grid"></div>
+    <div class="actions-row">
+      <button class="btn-brass" onclick="addProduct()">+ حفظ المنتج</button>
+    </div>
+  </div>
+
+  <!-- SYNC PANEL -->
+  <div class="panel" id="panel-sync" style="display:none;">
+    <h2>المزامنة التلقائية مع Git</h2>
+    <p class="hint">اربطي الدفتر بمستودع على GitHub — كل تغيير (إضافة/حذف) يُرفع تلقائيًا كنسخة كاملة من الملف بعد ثوانٍ من التوقف عن الكتابة. تقدرين أيضًا ترفعين أو تجلبين آخر نسخة يدويًا.</p>
+
+    <div class="grid-form" style="grid-template-columns:1fr 1fr;">
+      <div><label>GitHub Personal Access Token</label><input type="text" id="s-token" placeholder="ghp_xxxxxxxxxxxx"></div>
+      <div><label>اسم المستخدم/المنظمة (owner)</label><input type="text" id="s-owner" placeholder="مثال: fatima-store"></div>
+      <div><label>اسم المستودع (repo)</label><input type="text" id="s-repo" placeholder="مثال: pricing-book"></div>
+      <div><label>الفرع (branch)</label><input type="text" id="s-branch" placeholder="main"></div>
+      <div><label>مسار الملف داخل المستودع</label><input type="text" id="s-path" placeholder="index.html"></div>
+      <div style="display:flex; align-items:center; gap:8px; padding-bottom:8px;">
+        <input type="checkbox" id="s-auto" style="width:auto;">
+        <label for="s-auto" style="margin:0; font-size:13px; color:var(--text);">تفعيل المزامنة التلقائية بعد كل تعديل</label>
+      </div>
+    </div>
+
+    <p class="muted" style="margin-top:10px;">⚠️ التوكن يُحفظ في ذاكرة هذا المتصفح على جهازك فقط (مو داخل الملف نفسه) — عشان GitHub يمنع تلقائيًا رفع أي ملف فيه توكن ظاهر بداخله. يعني ما راح يُطلب منك إدخاله كل مرة على نفس الجهاز والمتصفح، لكن إذا فتحتِ الملف من جهاز أو متصفح ثاني بتحتاجين تكتبينه فيه مرة وحدة. يفضّل إنشاء توكن بصلاحية الكتابة على هذا المستودع فقط (Fine-grained token).</p>
+
+    <div class="actions-row">
+      <button class="btn-brass" onclick="saveSyncSettings()">حفظ إعدادات المزامنة</button>
+      <button class="btn-ghost" onclick="doSync('رفع يدوي')">⬆ ارفعي الآن</button>
+      <button class="btn-ghost" onclick="pullFromGithub()">⬇ اجلبي آخر نسخة</button>
+      <button class="btn-ghost" onclick="exportFile()">تنزيل نسخة على جهازي</button>
+      <button class="btn-del" onclick="forgetSavedToken()">انسي التوكن من هذا الجهاز</button>
+    </div>
+
+    <div id="sync-status" class="muted" style="margin-top:14px; font-weight:700;"></div>
+  </div>
+</div>
+
+<div class="footer-bar">
+  <button class="btn-ink" onclick="saveAndSync()">💾 حفظ وتحديث البيانات في Git</button>
+</div>
+
+<script>
+// ---------------- DATA (hardcoded — replaced on export) ----------------
+let DATA = {"materials": [{"id": 1, "name": "ورق مقمش 240", "units": 50, "price": 24}, {"id": 2, "name": "ورق مقمش 180", "units": 50, "price": 19}, {"id": 3, "name": "ورق لامع 100 قرام", "units": 50, "price": 19}, {"id": 4, "name": "ورق استكر لامع", "units": 50, "price": 29}, {"id": 5, "name": "ورق معطر", "units": 50, "price": 20}, {"id": 6, "name": "كوب 7 اونز", "units": 50, "price": 7}, {"id": 7, "name": "كوب 9 اونز", "units": 50, "price": 7}], "products": [], "nextMatId": 8, "nextProdId": 1, "settings": {"owner": "", "repo": "", "branch": "main", "path": "index.html", "autoSync": false}};
+
+// NOTE: the GitHub token is intentionally kept OUT of DATA (and therefore out of any
+// exported/pushed file) because GitHub's push-protection rejects commits containing
+// recognizable secrets. Instead it is saved in this browser's localStorage only, so it
+// stays on your device and is never uploaded anywhere.
+const TOKEN_KEY = 'fatima_pricing_git_token';
+let sessionToken = '';
+function loadSavedToken(){
+  try{ sessionToken = localStorage.getItem(TOKEN_KEY) || ''; }
+  catch(e){ sessionToken = ''; }
+}
+function saveTokenLocally(t){
+  try{ localStorage.setItem(TOKEN_KEY, t); }catch(e){ /* storage unavailable, e.g. inside a sandboxed preview */ }
+}
+function forgetSavedToken(){
+  try{ localStorage.removeItem(TOKEN_KEY); }catch(e){}
+  sessionToken = '';
+  document.getElementById('s-token').value = '';
+  setSyncStatus('تم نسيان التوكن من هذا الجهاز', 'idle');
+}
+loadSavedToken();
+
+let hasUnsyncedChanges = false;
+window.addEventListener('beforeunload', function(e){
+  if(hasUnsyncedChanges){
+    e.preventDefault();
+    e.returnValue = '';
+  }
+});
+
+let pickerSelections = {}; // {materialId: qty} for the "new product" form in progress
+
+function unitCost(m){ return (m.units>0) ? (m.price/m.units) : 0; }
+
+function fmt(n){ return (Math.round(n*100)/100).toLocaleString('ar-SA'); }
+
+// ---------------- TABS ----------------
+const ALL_TABS = ['materials','products','sync'];
+document.querySelectorAll('.tab').forEach(t=>{
+  t.addEventListener('click', ()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+    ALL_TABS.forEach(name=>{
+      document.getElementById('panel-'+name).style.display = (t.dataset.tab===name) ? 'block':'none';
+    });
+    if(t.dataset.tab==='sync') renderSyncSettings();
+  });
+});
+
+// ---------------- MATERIALS ----------------
+function renderMaterials(){
+  const body = document.getElementById('materials-body');
+  if(DATA.materials.length===0){
+    body.innerHTML = `<tr><td colspan="5" class="empty">لا توجد مواد بعد — أضيفي أول ماده بالأسفل</td></tr>`;
+  } else {
+    body.innerHTML = DATA.materials.map(m=>`
+      <tr>
+        <td>${m.name}</td>
+        <td class="num">${m.units}</td>
+        <td class="num">${fmt(m.price)}</td>
+        <td class="num"><b>${fmt(unitCost(m))}</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(${m.id})">حذف</button></td>
+      </tr>`).join('');
+  }
+  renderChipGrid();
+}
+
+function addMaterial(){
+  const name = document.getElementById('m-name').value.trim();
+  const units = parseFloat(document.getElementById('m-units').value);
+  const price = parseFloat(document.getElementById('m-price').value);
+  if(!name || !units || !price){ alert('عبّي كل الحقول (اسم، وحدات/عبوة، سعر العبوة)'); return; }
+  DATA.materials.push({id: DATA.nextMatId++, name, units, price});
+  document.getElementById('m-name').value='';
+  document.getElementById('m-units').value='';
+  document.getElementById('m-price').value='';
+  renderMaterials();
+  scheduleAutoSync();
+}
+
+function deleteMaterial(id){
+  if(!confirm('حذف هذه الماده؟ (لن يؤثر على المنتجات المحفوظة سابقًا)')) return;
+  DATA.materials = DATA.materials.filter(m=>m.id!==id);
+  delete pickerSelections[id];
+  renderMaterials();
+  scheduleAutoSync();
+}
+
+// ---------------- PRODUCT MATERIAL PICKER (chips) ----------------
+function renderChipGrid(){
+  const grid = document.getElementById('p-chip-grid');
+  if(DATA.materials.length===0){ grid.innerHTML = `<span class="muted">أضيفي مواد خام أولًا من التبويب الثاني</span>`; return; }
+  grid.innerHTML = DATA.materials.map(m=>{
+    const on = pickerSelections.hasOwnProperty(m.id);
+    const qty = on ? pickerSelections[m.id] : '';
+    return `<div class="chip ${on?'on':''}" onclick="toggleChip(event, ${m.id})">
+      <span>${m.name}</span>
+      ${on ? `<input class="qty" type="number" step="any" value="${qty}" placeholder="كمية" onclick="event.stopPropagation()" oninput="setQty(${m.id}, this.value)">` : ''}
+    </div>`;
+  }).join('');
+}
+
+function toggleChip(e, id){
+  if(pickerSelections.hasOwnProperty(id)){
+    delete pickerSelections[id];
+  } else {
+    pickerSelections[id] = 1;
+  }
+  renderChipGrid();
+}
+function setQty(id, val){
+  pickerSelections[id] = parseFloat(val)||0;
+}
+
+// ---------------- PRODUCTS ----------------
+function calcProduct(p){
+  let matCost = 0;
+  const bom = p.items.map(it=>{
+    const m = DATA.materials.find(x=>x.id===it.materialId);
+    const uc = m ? unitCost(m) : 0;
+    const line = uc*it.qty;
+    matCost += line;
+    return {name: m?m.name:'(ماده محذوفة)', qty: it.qty, line};
+  });
+  const totalCost = matCost + p.labor;
+  const profit = p.price - totalCost;
+  const margin = p.price>0 ? (profit/p.price*100) : 0;
+  return {matCost, totalCost, profit, margin, bom};
+}
+
+function renderProducts(){
+  const list = document.getElementById('products-list');
+  if(DATA.products.length===0){
+    list.innerHTML = `<div class="empty">لا توجد منتجات بعد — سوّي أول منتج بالأسفل</div>`;
+    return;
+  }
+  list.innerHTML = DATA.products.map(p=>{
+    const r = calcProduct(p);
+    const good = r.profit>=0;
+    return `<div class="prod-card">
+      <div class="stamp ${good?'good':'bad'}">${good?'رابح':'خاسر'} · ${fmt(r.margin)}%</div>
+      <h3>${p.name}</h3>
+      <div class="prod-meta">
+        <div><span class="muted">تكلفة المواد</span><b>${fmt(r.matCost)} ر.س</b></div>
+        <div><span class="muted">اليد العاملة</span><b>${fmt(p.labor)} ر.س</b></div>
+        <div><span class="muted">إجمالي التكلفة</span><b>${fmt(r.totalCost)} ر.س</b></div>
+        <div><span class="muted">سعر البيع</span><b>${fmt(p.price)} ر.س</b></div>
+        <div><span class="muted">الربح</span><b>${fmt(r.profit)} ر.س</b></div>
+      </div>
+      <div class="bom-list">${r.bom.map(b=>`<span>${b.name} × ${b.qty} = ${fmt(b.line)} ر.س</span>`).join('')}</div>
+      <div class="actions-row"><button class="btn-del" onclick="deleteProduct(${p.id})">حذف المنتج</button></div>
+    </div>`;
+  }).join('');
+}
+
+function addProduct(){
+  const name = document.getElementById('p-name').value.trim();
+  const labor = parseFloat(document.getElementById('p-labor').value)||0;
+  const price = parseFloat(document.getElementById('p-price').value)||0;
+  if(!name){ alert('اكتبي اسم المنتج'); return; }
+  const items = Object.entries(pickerSelections).map(([id,qty])=>({materialId:parseInt(id), qty:parseFloat(qty)||0})).filter(it=>it.qty>0);
+  DATA.products.push({id: DATA.nextProdId++, name, labor, price, items});
+  document.getElementById('p-name').value='';
+  document.getElementById('p-labor').value='';
+  document.getElementById('p-price').value='';
+  pickerSelections = {};
+  renderChipGrid();
+  renderProducts();
+  scheduleAutoSync();
+}
+
+function deleteProduct(id){
+  if(!confirm('حذف هذا المنتج؟')) return;
+  DATA.products = DATA.products.filter(p=>p.id!==id);
+  renderProducts();
+  scheduleAutoSync();
+}
+
+// ---------------- BUILD FULL HTML (shared by export + git sync) ----------------
+function buildFullHtml(){
+  let fullHtml = document.documentElement.outerHTML;
+  const dataStr = JSON.stringify(DATA);
+  fullHtml = '<!DOCTYPE html>\n' + fullHtml.replace(
+    /let DATA = \{.*?\};\s*\n/s,
+    `let DATA = ${dataStr};\n`
+  );
+  // Never bake a transient "syncing..." message into the saved snapshot —
+  // it gets regenerated by JS on load anyway.
+  fullHtml = fullHtml.replace(
+    /(<div id="sync-status"[^>]*>)[\s\S]*?(<\/div>)/,
+    '$1$2'
+  );
+  return fullHtml;
+}
+
+// ---------------- EXPORT (save complete file) ----------------
+function exportFile(){
+  const fullHtml = buildFullHtml();
+  const blob = new Blob([fullHtml], {type: 'text/html;charset=utf-8'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'دفتر_تسعير_فاطمة.html';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// ---------------- GIT (GitHub) SYNC ----------------
+function utf8ToBase64(str){
+  const bytes = new TextEncoder().encode(str);
+  let binary = '';
+  bytes.forEach(b => binary += String.fromCharCode(b));
+  return btoa(binary);
+}
+function base64ToUtf8(b64){
+  const binary = atob(b64.replace(/\n/g,''));
+  const bytes = new Uint8Array(binary.length);
+  for(let i=0;i<binary.length;i++) bytes[i] = binary.charCodeAt(i);
+  return new TextDecoder().decode(bytes);
+}
+
+function renderSyncSettings(){
+  const s = DATA.settings || {};
+  document.getElementById('s-token').value = sessionToken || '';
+  document.getElementById('s-owner').value = s.owner || '';
+  document.getElementById('s-repo').value = s.repo || '';
+  document.getElementById('s-branch').value = s.branch || 'main';
+  document.getElementById('s-path').value = s.path || 'index.html';
+  document.getElementById('s-auto').checked = !!s.autoSync;
+  setSyncStatus(s.autoSync ? 'المزامنة التلقائية مفعّلة' : 'المزامنة التلقائية متوقفة', 'idle');
+}
+
+function saveSyncSettings(){
+  sessionToken = document.getElementById('s-token').value.trim();
+  saveTokenLocally(sessionToken);
+  DATA.settings = {
+    owner: document.getElementById('s-owner').value.trim(),
+    repo: document.getElementById('s-repo').value.trim(),
+    branch: document.getElementById('s-branch').value.trim() || 'main',
+    path: document.getElementById('s-path').value.trim() || 'index.html',
+    autoSync: document.getElementById('s-auto').checked
+  };
+  setSyncStatus('تم حفظ الإعدادات ✓ (التوكن محفوظ على هذا الجهاز فقط)', 'ok');
+}
+
+function setSyncStatus(msg, kind){
+  const el = document.getElementById('sync-status');
+  if(!el) return;
+  const colors = {ok:'var(--good)', err:'var(--clay)', pending:'var(--brass-deep)', idle:'var(--muted)'};
+  el.style.color = colors[kind] || 'var(--muted)';
+  el.textContent = msg;
+}
+
+async function pushToGithub(commitMessage){
+  const s = DATA.settings || {};
+  if(!sessionToken || !s.owner || !s.repo){ throw new Error('أكملي التوكن واسم المستخدم والمستودع أولًا'); }
+  const content = buildFullHtml();
+  const b64 = utf8ToBase64(content);
+  const apiUrl = `https://api.github.com/repos/${s.owner}/${s.repo}/contents/${encodeURIComponent(s.path)}`;
+  const headers = {
+    'Authorization': `token ${sessionToken}`,
+    'Accept': 'application/vnd.github+json'
+  };
+
+  let sha = null;
+  const getRes = await fetch(`${apiUrl}?ref=${encodeURIComponent(s.branch)}`, {headers});
+  if(getRes.ok){
+    const j = await getRes.json();
+    sha = j.sha;
+  } else if(getRes.status !== 404){
+    throw new Error('تعذر الاتصال بجيت هب (تحققي من التوكن والصلاحيات)');
+  }
+
+  const putRes = await fetch(apiUrl, {
+    method: 'PUT',
+    headers: {...headers, 'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      message: commitMessage || 'تحديث دفتر التسعير',
+      content: b64,
+      branch: s.branch,
+      ...(sha ? {sha} : {})
+    })
+  });
+  if(!putRes.ok){
+    const err = await putRes.json().catch(()=>({}));
+    throw new Error(err.message || 'فشل رفع الملف إلى جيت هب');
+  }
+  return await putRes.json();
+}
+
+async function pullFromGithub(){
+  const s = DATA.settings || {};
+  if(!sessionToken || !s.owner || !s.repo){ setSyncStatus('أكملي إعدادات المزامنة أولًا', 'err'); return; }
+  setSyncStatus('جاري الجلب...', 'pending');
+  try{
+    const apiUrl = `https://api.github.com/repos/${s.owner}/${s.repo}/contents/${encodeURIComponent(s.path)}?ref=${encodeURIComponent(s.branch)}`;
+    const res = await fetch(apiUrl, {headers:{
+      'Authorization': `token ${sessionToken}`,
+      'Accept': 'application/vnd.github+json'
+    }});
+    if(!res.ok) throw new Error('تعذر جلب الملف من المستودع');
+    const j = await res.json();
+    const html = base64ToUtf8(j.content);
+    const match = html.match(/let DATA = (\{.*?\});\s*\n/s);
+    if(!match) throw new Error('تعذر قراءة البيانات من النسخة الموجودة على جيت هب');
+    if(!confirm('استيراد آخر نسخة من جيت هب سيستبدل بياناتك الحالية في هذه الصفحة. متابعة؟')){
+      setSyncStatus('تم إلغاء الجلب', 'idle');
+      return;
+    }
+    const newData = JSON.parse(match[1]);
+    newData.settings = s; // keep local connection settings
+    DATA = newData;
+    renderMaterials();
+    renderProducts();
+    renderSyncSettings();
+    setSyncStatus('تم الجلب بنجاح ✓ ' + new Date().toLocaleTimeString('ar-SA'), 'ok');
+  }catch(e){
+    setSyncStatus('خطأ: ' + e.message, 'err');
+  }
+}
+
+let autoSyncTimer = null;
+function scheduleAutoSync(){
+  hasUnsyncedChanges = true;
+  const s = DATA.settings;
+  if(!s || !s.autoSync || !sessionToken || !s.owner || !s.repo) return;
+  setSyncStatus('تعديل غير محفوظ — سترفع المزامنة تلقائيًا خلال لحظات...', 'pending');
+  clearTimeout(autoSyncTimer);
+  autoSyncTimer = setTimeout(()=>{ doSync('تحديث تلقائي'); }, 2500);
+}
+
+async function doSync(message){
+  setSyncStatus('جاري المزامنة مع جيت هب...', 'pending');
+  try{
+    await pushToGithub(message);
+    hasUnsyncedChanges = false;
+    setSyncStatus('تمت المزامنة بنجاح ✓ ' + new Date().toLocaleTimeString('ar-SA'), 'ok');
+  }catch(e){
+    setSyncStatus('خطأ بالمزامنة: ' + e.message, 'err');
+  }
+}
+
+// ---------------- MAIN SAVE BUTTON (footer) ----------------
+async function saveAndSync(){
+  const s = DATA.settings || {};
+  if(!sessionToken || !s.owner || !s.repo){
+    alert('لسا ما ربطتِ حساب Git. روحي تبويب "المزامنة مع Git" وعبّي التوكن واسم المستودع، ثم اضغطي "حفظ إعدادات المزامنة".');
+    document.querySelector('.tab[data-tab="sync"]').click();
+    return;
+  }
+  await doSync('حفظ يدوي من الصفحة الرئيسية');
+}
+
+// ---------------- INIT ----------------
+renderMaterials();
+renderProducts();
+</script>
+</body>
+</html>
