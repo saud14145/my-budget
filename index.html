@@ -234,6 +234,20 @@
         <td class="num">٩</td>
         <td class="num"><b>٠٫١٢</b></td>
         <td><button class="btn-del" onclick="deleteMaterial(9)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>كوب 8 اونز</td>
+        <td class="num">50</td>
+        <td class="num">٥٫٧٥</td>
+        <td class="num"><b>٠٫١٢</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(10)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>اعواد شاي</td>
+        <td class="num">250</td>
+        <td class="num">١١٫٥</td>
+        <td class="num"><b>٠٫٠٥</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(11)">حذف</button></td>
       </tr></tbody>
     </table>
     <div class="grid-form">
@@ -282,6 +296,12 @@
     </div><div class="chip " onclick="toggleChip(event, 9)">
       <span>علك</span>
       
+    </div><div class="chip " onclick="toggleChip(event, 10)">
+      <span>كوب 8 اونز</span>
+      
+    </div><div class="chip " onclick="toggleChip(event, 11)">
+      <span>اعواد شاي</span>
+      
     </div></div>
     <div class="actions-row">
       <button class="btn-brass" onclick="addProduct()">+ حفظ المنتج</button>
@@ -325,7 +345,7 @@
 
 <script>
 // ---------------- DATA (hardcoded — replaced on export) ----------------
-let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9}],"products":[],"nextMatId":10,"nextProdId":2,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
+let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9},{"id":10,"name":"كوب 8 اونز","units":50,"price":5.75},{"id":11,"name":"اعواد شاي","units":250,"price":11.5}],"products":[],"nextMatId":12,"nextProdId":2,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
 // NOTE: the GitHub token is intentionally kept OUT of DATA (and therefore out of any
 // exported/pushed file) because GitHub's push-protection rejects commits containing
 // recognizable secrets. Instead it is saved in this browser's localStorage only, so it
