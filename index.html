@@ -295,12 +295,14 @@
       </div>
     </div>
 
-    <p class="muted" style="margin-top:10px;">⚠️ لأسباب أمنية (وحماية GitHub التلقائية تمنع رفع أي ملف يحتوي على توكن)، التوكن <b>لا يُحفظ</b> داخل الملف ولا يُرفع أبدًا — يبقى في الذاكرة المؤقتة لهذه الجلسة فقط، وتحتاجين تكتبينه من جديد كل مرة تفتحين فيها الملف. باقي إعدادات الربط (اسم المستودع، الفرع، المسار) تُحفظ عادي. يفضّل إنشاء توكن بصلاحية الكتابة على هذا المستودع فقط (Fine-grained token).</p>
+    <p class="muted" style="margin-top:10px;">⚠️ التوكن يُحفظ في ذاكرة هذا المتصفح على جهازك فقط (مو داخل الملف نفسه) — عشان GitHub يمنع تلقائيًا رفع أي ملف فيه توكن ظاهر بداخله. يعني ما راح يُطلب منك إدخاله كل مرة على نفس الجهاز والمتصفح، لكن إذا فتحتِ الملف من جهاز أو متصفح ثاني بتحتاجين تكتبينه فيه مرة وحدة. يفضّل إنشاء توكن بصلاحية الكتابة على هذا المستودع فقط (Fine-grained token).</p>
 
     <div class="actions-row">
       <button class="btn-brass" onclick="saveSyncSettings()">حفظ إعدادات المزامنة</button>
       <button class="btn-ghost" onclick="doSync('رفع يدوي')">⬆ ارفعي الآن</button>
       <button class="btn-ghost" onclick="pullFromGithub()">⬇ اجلبي آخر نسخة</button>
+      <button class="btn-ghost" onclick="exportFile()">تنزيل نسخة على جهازي</button>
+      <button class="btn-del" onclick="forgetSavedToken()">انسي التوكن من هذا الجهاز</button>
     </div>
 
     <div id="sync-status" class="muted" style="margin-top: 14px; font-weight: 700; color: var(--brass-deep);">جاري المزامنة مع جيت هب...</div>
@@ -308,16 +310,32 @@
 </div>
 
 <div class="footer-bar">
-  <button class="btn-ink" onclick="exportFile()">💾 حفظ وتنزيل الملف الكامل</button>
+  <button class="btn-ink" onclick="saveAndSync()">💾 حفظ وتحديث البيانات في Git</button>
 </div>
 
 <script>
 // ---------------- DATA (hardcoded — replaced on export) ----------------
-let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7}],"products":[],"nextMatId":8,"nextProdId":1,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":false}};
+let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7}],"products":[],"nextMatId":8,"nextProdId":1,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
 // NOTE: the GitHub token is intentionally kept OUT of DATA (and therefore out of any
 // exported/pushed file) because GitHub's push-protection rejects commits containing
-// recognizable secrets. It lives only in this in-memory variable for the current session.
+// recognizable secrets. Instead it is saved in this browser's localStorage only, so it
+// stays on your device and is never uploaded anywhere.
+const TOKEN_KEY = 'fatima_pricing_git_token';
 let sessionToken = '';
+function loadSavedToken(){
+  try{ sessionToken = localStorage.getItem(TOKEN_KEY) || ''; }
+  catch(e){ sessionToken = ''; }
+}
+function saveTokenLocally(t){
+  try{ localStorage.setItem(TOKEN_KEY, t); }catch(e){ /* storage unavailable, e.g. inside a sandboxed preview */ }
+}
+function forgetSavedToken(){
+  try{ localStorage.removeItem(TOKEN_KEY); }catch(e){}
+  sessionToken = '';
+  document.getElementById('s-token').value = '';
+  setSyncStatus('تم نسيان التوكن من هذا الجهاز', 'idle');
+}
+loadSavedToken();
 
 let pickerSelections = {}; // {materialId: qty} for the "new product" form in progress
 
@@ -519,6 +537,7 @@ function renderSyncSettings(){
 
 function saveSyncSettings(){
   sessionToken = document.getElementById('s-token').value.trim();
+  saveTokenLocally(sessionToken);
   DATA.settings = {
     owner: document.getElementById('s-owner').value.trim(),
     repo: document.getElementById('s-repo').value.trim(),
@@ -526,7 +545,7 @@ function saveSyncSettings(){
     path: document.getElementById('s-path').value.trim() || 'index.html',
     autoSync: document.getElementById('s-auto').checked
   };
-  setSyncStatus('تم حفظ الإعدادات ✓ (التوكن محفوظ لهذه الجلسة فقط)', 'ok');
+  setSyncStatus('تم حفظ الإعدادات ✓ (التوكن محفوظ على هذا الجهاز فقط)', 'ok');
 }
 
 function setSyncStatus(msg, kind){
@@ -624,10 +643,21 @@ async function doSync(message){
   }
 }
 
+// ---------------- MAIN SAVE BUTTON (footer) ----------------
+async function saveAndSync(){
+  const s = DATA.settings || {};
+  if(!sessionToken || !s.owner || !s.repo){
+    alert('لسا ما ربطتِ حساب Git. روحي تبويب "المزامنة مع Git" وعبّي التوكن واسم المستودع، ثم اضغطي "حفظ إعدادات المزامنة".');
+    document.querySelector('.tab[data-tab="sync"]').click();
+    return;
+  }
+  await doSync('حفظ يدوي من الصفحة الرئيسية');
+}
+
 // ---------------- INIT ----------------
 renderMaterials();
 renderProducts();
 </script>
 
 
-<div id="immersive-translate-popup" style="all: initial"></div><div id="immersive-translate-popup" style="all: initial"></div></body><div id="immersive-translate-popup" style="all: initial"></div></html>
+</body><div id="immersive-translate-popup" style="all: initial"></div></html>
