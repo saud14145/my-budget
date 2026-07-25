@@ -452,8 +452,8 @@
     },
     {
       "merchant": "LO CAFE",
-      "category": "غير مصنّف",
-      "categoryAhli": "غير مصنّف",
+      "category": "المطاعم",
+      "categoryAhli": "مطاعم وتوصيل طعام",
       "aliases": []
     },
     {
@@ -2075,14 +2075,14 @@
       "merchant": "LO CAFE",
       "dateTimeMs": 1782024600000,
       "purchase": 18,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.54,
+      "pct": 0.030000000000000002,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "المطاعم",
+      "notes": "الفئة: المطاعم",
+      "withinCap": true
     },
     {
       "id": "xcpc6aajq",
@@ -5359,6 +5359,11 @@
       "ts": 1784986556222,
       "type": "تعديل محل",
       "message": "المحل \"Zahya Coffee EST\" — category: \"غير مصنّف\" → \"المطاعم\""
+    },
+    {
+      "ts": 1784986562465,
+      "type": "تعديل محل",
+      "message": "المحل \"LO CAFE\" — category: \"غير مصنّف\" → \"المطاعم\""
     }
   ],
   "errorLog": []
