@@ -1,5 +1,47 @@
 {
-  "transactions": [],
   "settings": {},
+  "stores": [
+    {
+      "merchant": "ARAMCO",
+      "category": "باقي المشتريات",
+      "categoryAhli": "وقود",
+      "aliases": []
+    },
+    {
+      "merchant": "Barns",
+      "category": "المطاعم",
+      "categoryAhli": "مطاعم وتوصيل طعام",
+      "aliases": []
+    },
+    {
+      "merchant": "HungerStation",
+      "category": "المطاعم",
+      "categoryAhli": "مطاعم وتوصيل طعام",
+      "aliases": []
+    },
+    {
+      "merchant": "Lawazem",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Deep Clea",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "MILA MART FOOD SUPPLIES A",
+      "category": "السوبرماركت",
+      "categoryAhli": "سوبرماركت وبقالات",
+      "aliases": []
+    }
+  ],
+  "transactions": [],
+  "unlinked": [],
+  "raw": [],
+  "auditLog": [],
+  "errorLog": [],
   "version": 1
 }
