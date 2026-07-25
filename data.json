@@ -446,8 +446,8 @@
     },
     {
       "merchant": "MILA MART FOOD SUPPLIES A",
-      "category": "غير مصنّف",
-      "categoryAhli": "غير مصنّف",
+      "category": "السوبرماركت",
+      "categoryAhli": "سوبرماركت وبقالات",
       "aliases": []
     },
     {
@@ -5394,6 +5394,11 @@
       "ts": 1784987050585,
       "type": "إعادة تحليل",
       "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
+    },
+    {
+      "ts": 1784987101302,
+      "type": "تعديل محل",
+      "message": "المحل \"MILA MART FOOD SUPPLIES A\" — category: \"غير مصنّف\" → \"السوبرماركت\""
     }
   ],
   "errorLog": []
