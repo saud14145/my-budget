@@ -500,8 +500,8 @@
     },
     {
       "merchant": "LULU HYPERMARKET, RUSAYFA",
-      "category": "غير مصنّف",
-      "categoryAhli": "غير مصنّف",
+      "category": "السوبرماركت",
+      "categoryAhli": "سوبرماركت وبقالات",
       "aliases": []
     },
     {
@@ -2296,14 +2296,14 @@
       "merchant": "LULU HYPERMARKET, RUSAYFA",
       "dateTimeMs": 1782307800000,
       "purchase": 288.45,
-      "refund": 0,
-      "pct": 0,
+      "refund": 28.845,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xkkpglqnv",
@@ -5349,6 +5349,11 @@
       "ts": 1784986518304,
       "type": "تعديل محل",
       "message": "المحل \"ananinja.com\" — category: \"غير مصنّف\" → \"السوبرماركت\""
+    },
+    {
+      "ts": 1784986545535,
+      "type": "تعديل محل",
+      "message": "المحل \"LULU HYPERMARKET, RUSAYFA\" — category: \"غير مصنّف\" → \"السوبرماركت\""
     }
   ],
   "errorLog": []
