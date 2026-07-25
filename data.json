@@ -757,9 +757,9 @@
       "aliases": []
     },
     {
-      "merchant": "محل جديد",
-      "category": "غير مصنّف",
-      "categoryAhli": "غير مصنّف"
+      "merchant": "MILA MART FOOD SUPPLIES A",
+      "category": "السوبرماركت",
+      "categoryAhli": "سوبرماركت وبقالات"
     }
   ],
   "transactions": [
@@ -2046,14 +2046,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782014760000,
       "purchase": 6,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.6000000000000001,
+      "pct": 0.10000000000000002,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xy0rw5kmi",
@@ -2148,14 +2148,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782085200000,
       "purchase": 38.85,
-      "refund": 0,
-      "pct": 0,
+      "refund": 3.8850000000000002,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xfpx25jou",
@@ -2335,14 +2335,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782334080000,
       "purchase": 13.9,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.3900000000000001,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xyw21jp7t",
@@ -2386,14 +2386,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782427200000,
       "purchase": 11,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.1,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xsdj803mb",
@@ -2437,14 +2437,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782620220000,
       "purchase": 11,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.1,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xsw57kdb0",
@@ -2454,14 +2454,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782677160000,
       "purchase": 14,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.4000000000000001,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "x83b0yotk",
@@ -2471,14 +2471,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782743460000,
       "purchase": 6.95,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.6950000000000001,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "x36wtorpy",
@@ -2777,14 +2777,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782971040000,
       "purchase": 34.9,
-      "refund": 0,
-      "pct": 0,
+      "refund": 3.49,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xlw5kd6vs",
@@ -2947,14 +2947,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1783360320000,
       "purchase": 13.75,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.375,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xtxcyx2p2",
@@ -2998,14 +2998,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1783379280000,
       "purchase": 15,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.5,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xjhbq4586",
@@ -3015,14 +3015,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1783457820000,
       "purchase": 2.5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.25,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "x6h2tzbst",
@@ -3083,14 +3083,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1783656300000,
       "purchase": 5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.5,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "x6lyiv7ki",
@@ -3219,14 +3219,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784047740000,
       "purchase": 11.95,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.195,
+      "pct": 0.1,
       "channel": "POS",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xsmcz9n4w",
@@ -3236,14 +3236,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784048040000,
       "purchase": 17,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.7000000000000002,
+      "pct": 0.1,
       "channel": "POS",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xkvzjro7h",
@@ -3270,14 +3270,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784057520000,
       "purchase": 5.5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.55,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xrau64sj6",
@@ -3321,14 +3321,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784304900000,
       "purchase": 9,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.9,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "x8agelc33",
@@ -3338,14 +3338,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784409840000,
       "purchase": 1.4,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.13999999999999999,
+      "pct": 0.09999999999999999,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "x5ah8bvft",
@@ -3355,14 +3355,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784671260000,
       "purchase": 46,
-      "refund": 0,
-      "pct": 0,
+      "refund": 4.6000000000000005,
+      "pct": 0.1,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "الفئة: السوبرماركت",
+      "withinCap": true
     },
     {
       "id": "xidmwex8k",
@@ -5379,6 +5379,16 @@
       "ts": 1784986755577,
       "type": "إعادة تحليل",
       "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
+    },
+    {
+      "ts": 1784986906289,
+      "type": "تعديل محل",
+      "message": "المحل \"MILA MART FOOD SUPPLIES A\" — merchant: \"محل جديد\" → \"MILA MART FOOD SUPPLIES A\""
+    },
+    {
+      "ts": 1784986907823,
+      "type": "تعديل محل",
+      "message": "المحل \"MILA MART FOOD SUPPLIES A\" — category: \"غير مصنّف\" → \"السوبرماركت\""
     }
   ],
   "errorLog": []
