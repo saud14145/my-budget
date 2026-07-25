@@ -2034,22 +2034,6 @@
       "withinCap": null
     },
     {
-      "id": "x6aduskss",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "Express Food Company",
-      "dateTimeMs": 1781979660000,
-      "purchase": 68.63,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
       "id": "xu5nu5ln5",
       "type": "شراء - Apple Pay",
       "card": "بطاقة لايف ستايل",
@@ -2407,22 +2391,6 @@
       "withinCap": null
     },
     {
-      "id": "xy3tmgrh8",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "Mobily",
-      "dateTimeMs": 1782434100000,
-      "purchase": 746.35,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
       "id": "xsdj803mb",
       "type": "شراء - Apple Pay",
       "card": "بطاقة لايف ستايل",
@@ -2455,38 +2423,6 @@
       "categoryFransi": "المطاعم",
       "notes": "الفئة: المطاعم",
       "withinCap": true
-    },
-    {
-      "id": "xvs0owgk5",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "SAUDI ELECTRICITY COMP",
-      "dateTimeMs": 1782590940000,
-      "purchase": 360,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
-      "id": "xtdcqe7cq",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "Rajhitakaful",
-      "dateTimeMs": 1782606660000,
-      "purchase": 761.14,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
     },
     {
       "id": "xlaxygr9l",
@@ -2659,22 +2595,6 @@
       "withinCap": null
     },
     {
-      "id": "x7t7dp1oa",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "Mojaz",
-      "dateTimeMs": 1782770100000,
-      "purchase": 119,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
       "id": "x6rkzh8iw",
       "type": "شراء - Apple Pay",
       "card": "بطاقة لايف ستايل",
@@ -2758,22 +2678,6 @@
       "categoryFransi": "غير مصنّف",
       "notes": "الفئة غير محددة - راجع تبويب المحلات",
       "withinCap": null
-    },
-    {
-      "id": "xopsou2q7",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "TAP*Tameeni",
-      "dateTimeMs": 1782853920000,
-      "purchase": 1138.62,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
     },
     {
       "id": "xnjvwia3p",
@@ -2929,22 +2833,6 @@
       "withinCap": null
     },
     {
-      "id": "xjahjo4rj",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "My Business Services",
-      "dateTimeMs": 1782987000000,
-      "purchase": 115,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
       "id": "x90eiga01",
       "type": "شراء - Apple Pay",
       "card": "بطاقة لايف ستايل",
@@ -2962,70 +2850,6 @@
       "withinCap": null
     },
     {
-      "id": "x4li19upu",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "TAP*Tameeni",
-      "dateTimeMs": 1783006440000,
-      "purchase": 690,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
-      "id": "x2pg9jc2t",
-      "type": "شراء - إنترنت",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "EFAA",
-      "dateTimeMs": 1027702920000,
-      "purchase": 113,
-      "refund": 0,
-      "pct": 0,
-      "channel": "إنترنت",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
-      "id": "xnn65f6rr",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "Express Food Company",
-      "dateTimeMs": 1783022820000,
-      "purchase": 71.13,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
-      "id": "x0dumepux",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "ananinja.com",
-      "dateTimeMs": 1783033740000,
-      "purchase": 96,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
       "id": "x2lmuj0gr",
       "type": "شراء - إنترنت",
       "card": "بطاقة لايف ستايل",
@@ -3041,22 +2865,6 @@
       "categoryFransi": "غير مصنّف",
       "notes": "الفئة غير محددة - راجع تبويب المحلات",
       "withinCap": null
-    },
-    {
-      "id": "xdswjhibo",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "www.ananinja.com",
-      "dateTimeMs": 1059175920000,
-      "purchase": 197,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
     },
     {
       "id": "xm7pibbos",
@@ -3263,22 +3071,6 @@
       "withinCap": null
     },
     {
-      "id": "xhtgsop34",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "HUNGERSTATION LLC",
-      "dateTimeMs": 1783627140000,
-      "purchase": 37.71,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "مطاعم وتوصيل طعام"
-    },
-    {
       "id": "xuvg8lqg5",
       "type": "شراء - Apple Pay",
       "card": "بطاقة لايف ستايل",
@@ -3313,22 +3105,6 @@
       "withinCap": null
     },
     {
-      "id": "x4o4881sa",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "Nsh-sa",
-      "dateTimeMs": 1783733580000,
-      "purchase": 323,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
-    },
-    {
       "id": "x99gplyx7",
       "type": "شراء - Apple Pay",
       "card": "بطاقة لايف ستايل",
@@ -3361,22 +3137,6 @@
       "categoryFransi": "غير مصنّف",
       "notes": "الفئة غير محددة - راجع تبويب المحلات",
       "withinCap": null
-    },
-    {
-      "id": "xcbv4t6uc",
-      "type": "شراء - Apple Pay",
-      "card": "بطاقة لايف ستايل",
-      "bank": "الأهلي",
-      "merchant": "Panda online",
-      "dateTimeMs": 1783836120000,
-      "purchase": 440.13,
-      "refund": 0,
-      "pct": 0,
-      "channel": "Apple Pay",
-      "last4": "2033",
-      "linkStatus": "بانتظار الاسترداد",
-      "notes": "",
-      "categoryAhli": "غير مصنّف"
     },
     {
       "id": "xvuurmaud",
@@ -5571,49 +5331,9 @@
       "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
     },
     {
-      "ts": 1784986058301,
-      "type": "تعديل قواعد التصنيف",
-      "message": "ahliRequireKeyword: \"ائتمانية\" → \"الصرف المتبقي\""
-    },
-    {
-      "ts": 1784986068976,
-      "type": "إعادة تحليل",
-      "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
-    },
-    {
-      "ts": 1784986070556,
-      "type": "إعادة تحليل",
-      "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
-    },
-    {
-      "ts": 1784986129486,
-      "type": "إعادة تحليل",
-      "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
-    },
-    {
-      "ts": 1784986164899,
-      "type": "إعادة تحليل",
-      "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
-    },
-    {
-      "ts": 1784986176206,
-      "type": "إعادة تحليل",
-      "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
-    },
-    {
-      "ts": 1784986176789,
-      "type": "إعادة تحليل",
-      "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
-    },
-    {
-      "ts": 1784986177205,
-      "type": "إعادة تحليل",
-      "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
-    },
-    {
-      "ts": 1784986177404,
-      "type": "إعادة تحليل",
-      "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
+      "ts": 1784986315010,
+      "type": "تعديل يدوي",
+      "message": "حُذفت 15 عملية أهلي خاطئة (بطاقة 2033 فرنسي مصنّفة غلط) + تعديل ahliRequireKeyword إلى \"الصرف المتبقي\""
     }
   ],
   "errorLog": []
