@@ -1,5 +1,123 @@
 {
-  "settings": {},
+  "settings": {
+    "cards": [
+      {
+        "name": "بطاقة الأهلي - الاسترداد المميز",
+        "bank": "الأهلي",
+        "last4": "3204",
+        "cycleStartDay": 1
+      },
+      {
+        "name": "بطاقة لايف ستايل",
+        "bank": "الفرنسي",
+        "last4": "2033",
+        "cycleStartDay": 4
+      }
+    ],
+    "categories": [
+      {
+        "name": "السوبرماركت",
+        "rate": 0.1,
+        "cap": 250
+      },
+      {
+        "name": "المطاعم",
+        "rate": 0.03,
+        "cap": 250
+      },
+      {
+        "name": "المستشفيات والصيدليات",
+        "rate": 0.03,
+        "cap": 250
+      },
+      {
+        "name": "التعليم",
+        "rate": 0.02,
+        "cap": 250
+      },
+      {
+        "name": "السفر",
+        "rate": 0.02,
+        "cap": 250
+      },
+      {
+        "name": "باقي المشتريات",
+        "rate": 0.005,
+        "cap": 250
+      },
+      {
+        "name": "غير مصنّف",
+        "rate": 0,
+        "cap": 0
+      }
+    ],
+    "ahliCategories": [
+      {
+        "name": "وقود",
+        "rate": 0.11,
+        "cap": 100
+      },
+      {
+        "name": "مطاعم وتوصيل طعام",
+        "rate": 0.05,
+        "cap": 200
+      },
+      {
+        "name": "سوبرماركت وبقالات",
+        "rate": 0.05,
+        "cap": 200
+      },
+      {
+        "name": "صيدليات",
+        "rate": 0.05,
+        "cap": 200
+      },
+      {
+        "name": "عمليات دولية",
+        "rate": 0.02,
+        "cap": 0
+      },
+      {
+        "name": "باقي المشتريات",
+        "rate": 0.007,
+        "cap": 0
+      },
+      {
+        "name": "غير مصنّف",
+        "rate": 0,
+        "cap": 0
+      }
+    ],
+    "ignoreKeywords": [
+      "حوالة",
+      "سداد",
+      "كشف",
+      "رسوم",
+      "حجز",
+      "رمز التفعيل",
+      "رمز تفعيل",
+      "الرقم السري",
+      "مبروك",
+      "لا تشارك"
+    ],
+    "classificationRules": {
+      "ahliRefundKeywords": [
+        "استرجاع نقدي"
+      ],
+      "ahliPurchaseKeywords": [
+        "شراء-POS",
+        "شراء انترنت"
+      ],
+      "ahliRequireKeyword": "ائتمانية",
+      "fransiPurchaseKeywords": [
+        "شراء عبر"
+      ],
+      "otherCardKeywords": [
+        "مدى"
+      ]
+    },
+    "toleranceMinutes": 5
+  },
   "stores": [
     {
       "merchant": "ARAMCO",
@@ -42,6 +160,5 @@
   "unlinked": [],
   "raw": [],
   "auditLog": [],
-  "errorLog": [],
-  "version": 1
+  "errorLog": []
 }
