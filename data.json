@@ -680,8 +680,8 @@
     },
     {
       "merchant": "www.ananinja.com",
-      "category": "غير مصنّف",
-      "categoryAhli": "غير مصنّف",
+      "category": "السوبرماركت",
+      "categoryAhli": "سوبرماركت وبقالات",
       "aliases": []
     },
     {
@@ -5339,6 +5339,11 @@
       "ts": 1784986505373,
       "type": "تعديل محل",
       "message": "المحل \"Panda online\" — category: \"غير مصنّف\" → \"السوبرماركت\""
+    },
+    {
+      "ts": 1784986514613,
+      "type": "تعديل محل",
+      "message": "المحل \"www.ananinja.com\" — category: \"غير مصنّف\" → \"السوبرماركت\""
     }
   ],
   "errorLog": []
