@@ -283,7 +283,7 @@
     },
     {
       "merchant": "Cortado",
-      "category": "باقي المشتريات",
+      "category": "المطاعم",
       "categoryAhli": "باقي المشتريات",
       "aliases": []
     },
@@ -2782,6 +2782,11 @@
       "ts": 1784984207103,
       "type": "تعديل محل",
       "message": "المحل \"HUNGERSTATION LLC\" — category: \"غير مصنّف\" → \"المطاعم\""
+    },
+    {
+      "ts": 1784984212591,
+      "type": "تعديل محل",
+      "message": "المحل \"Cortado\" — category: \"باقي المشتريات\" → \"المطاعم\""
     }
   ],
   "errorLog": []
