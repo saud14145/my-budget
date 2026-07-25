@@ -224,8 +224,8 @@
     },
     {
       "merchant": "Express Food Company",
-      "category": "غير مصنّف",
-      "categoryAhli": "غير مصنّف",
+      "category": "المطاعم",
+      "categoryAhli": "مطاعم وتوصيل طعام",
       "aliases": []
     },
     {
@@ -1145,9 +1145,9 @@
       "channel": "Apple Pay",
       "last4": "3204",
       "linkStatus": "مرتبط",
-      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
-      "categoryAhli": "غير مصنّف",
-      "withinCap": null
+      "notes": "الفئة: مطاعم وتوصيل طعام (مؤكدة من نسبة الاسترداد 5.0%)",
+      "categoryAhli": "مطاعم وتوصيل طعام",
+      "withinCap": true
     },
     {
       "id": "xosk561vk",
@@ -5364,6 +5364,11 @@
       "ts": 1784986562465,
       "type": "تعديل محل",
       "message": "المحل \"LO CAFE\" — category: \"غير مصنّف\" → \"المطاعم\""
+    },
+    {
+      "ts": 1784986589472,
+      "type": "تعديل محل",
+      "message": "المحل \"Express Food Company\" — category: \"غير مصنّف\" → \"المطاعم\""
     }
   ],
   "errorLog": []
