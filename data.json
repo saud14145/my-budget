@@ -2007,14 +2007,14 @@
       "merchant": "ALQASWA PLUC",
       "dateTimeMs": 1781964180000,
       "purchase": 19,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.095,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x5j5x8mal",
@@ -2024,14 +2024,14 @@
       "merchant": "KHALID BADAAM EST",
       "dateTimeMs": 1781969100000,
       "purchase": 1555,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.155,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xu5nu5ln5",
@@ -2041,14 +2041,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782014760000,
       "purchase": 6,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.6,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xy0rw5kmi",
@@ -2058,14 +2058,14 @@
       "merchant": "ARAMCO",
       "dateTimeMs": 1782017700000,
       "purchase": 88,
-      "refund": 0.44,
-      "pct": 0.005,
+      "refund": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "باقي المشتريات",
-      "notes": "الفئة: باقي المشتريات",
-      "withinCap": true
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x1je3x17h",
@@ -2076,12 +2076,12 @@
       "dateTimeMs": 1782024600000,
       "purchase": 18,
       "refund": 0.54,
-      "pct": 0.030000000000000002,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "المطاعم",
-      "notes": "الفئة: المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
       "withinCap": true
     },
     {
@@ -2093,13 +2093,13 @@
       "dateTimeMs": 1782048180000,
       "purchase": 1,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xk02shztv",
@@ -2109,14 +2109,14 @@
       "merchant": "SHAWWAYAH MOQAMMAR",
       "dateTimeMs": 1782063420000,
       "purchase": 24,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.72,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x62fjtwtx",
@@ -2127,12 +2127,12 @@
       "dateTimeMs": 1782073080000,
       "purchase": 11.8,
       "refund": 0.354,
-      "pct": 0.029999999999999995,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "المطاعم",
-      "notes": "الفئة: المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
       "withinCap": true
     },
     {
@@ -2143,14 +2143,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1782085200000,
       "purchase": 38.85,
-      "refund": 0,
-      "pct": 0,
+      "refund": 3.885,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xfpx25jou",
@@ -2161,13 +2161,13 @@
       "dateTimeMs": 1782120180000,
       "purchase": 7,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x2d7bab5j",
@@ -2178,12 +2178,12 @@
       "dateTimeMs": 1782120960000,
       "purchase": 5,
       "refund": 0.15,
-      "pct": 0.03,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "المطاعم",
-      "notes": "الفئة: المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
       "withinCap": true
     },
     {
@@ -2194,14 +2194,14 @@
       "merchant": "khalej al shwaiah co",
       "dateTimeMs": 1782122580000,
       "purchase": 13.5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.405,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xiixyv3hb",
@@ -2212,13 +2212,13 @@
       "dateTimeMs": 1782156420000,
       "purchase": 20,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xhk5y3crm",
@@ -2229,13 +2229,13 @@
       "dateTimeMs": 1782222180000,
       "purchase": 32,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x3fbiq1tr",
@@ -2246,12 +2246,12 @@
       "dateTimeMs": 1782229740000,
       "purchase": 19,
       "refund": 0.57,
-      "pct": 0.03,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "المطاعم",
-      "notes": "الفئة: المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
       "withinCap": true
     },
     {
@@ -2263,13 +2263,13 @@
       "dateTimeMs": 1782289440000,
       "purchase": 4.5,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x4k7xjt35",
@@ -2280,13 +2280,13 @@
       "dateTimeMs": 1782289740000,
       "purchase": 3,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xagm2qj4w",
@@ -2296,14 +2296,14 @@
       "merchant": "LULU HYPERMARKET, RUSAYFA",
       "dateTimeMs": 1782307800000,
       "purchase": 288.45,
-      "refund": 28.845,
-      "pct": 0.1,
+      "refund": 20.515,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "السوبرماركت",
-      "notes": "الفئة: السوبرماركت",
-      "withinCap": true
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xkkpglqnv",
@@ -2314,13 +2314,13 @@
       "dateTimeMs": 1782333420000,
       "purchase": 1,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x06wvoyjh",
@@ -2331,13 +2331,13 @@
       "dateTimeMs": 1782334080000,
       "purchase": 13.9,
       "refund": 0,
-      "pct": 0,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xyw21jp7t",
@@ -2347,14 +2347,14 @@
       "merchant": "ARAMCO",
       "dateTimeMs": 1782411960000,
       "purchase": 86,
-      "refund": 0.43,
-      "pct": 0.005,
+      "refund": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "باقي المشتريات",
-      "notes": "الفئة: باقي المشتريات",
-      "withinCap": true
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x57yce4nl",
@@ -2365,13 +2365,13 @@
       "dateTimeMs": 1782416580000,
       "purchase": 37,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xtnbyhe8t",
@@ -2382,13 +2382,13 @@
       "dateTimeMs": 1782427200000,
       "purchase": 11,
       "refund": 0,
-      "pct": 0,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xsdj803mb",
@@ -2398,14 +2398,14 @@
       "merchant": "MSHWEAT ALHAMRA CO",
       "dateTimeMs": 1782583080000,
       "purchase": 24.5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.735,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xp6g9gsiz",
@@ -2416,12 +2416,12 @@
       "dateTimeMs": 1782584520000,
       "purchase": 5,
       "refund": 0.15,
-      "pct": 0.03,
+      "pct": 3,
       "channel": "POS",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "المطاعم",
-      "notes": "الفئة: المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
       "withinCap": true
     },
     {
@@ -2433,13 +2433,13 @@
       "dateTimeMs": 1782620220000,
       "purchase": 11,
       "refund": 0,
-      "pct": 0,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xsw57kdb0",
@@ -2450,13 +2450,13 @@
       "dateTimeMs": 1782677160000,
       "purchase": 14,
       "refund": 0,
-      "pct": 0,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x83b0yotk",
@@ -2467,13 +2467,13 @@
       "dateTimeMs": 1782743460000,
       "purchase": 6.95,
       "refund": 0,
-      "pct": 0,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x36wtorpy",
@@ -2483,14 +2483,14 @@
       "merchant": "EST SHAWERMA MOHAMMED HAS",
       "dateTimeMs": 1782748980000,
       "purchase": 32,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.96,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x44qn6ecx",
@@ -2501,13 +2501,13 @@
       "dateTimeMs": 1782753180000,
       "purchase": 25,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xo3la4o3q",
@@ -2518,13 +2518,13 @@
       "dateTimeMs": 1782759300000,
       "purchase": 16,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xus6514mk",
@@ -2535,13 +2535,13 @@
       "dateTimeMs": 1782763080000,
       "purchase": 1,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xx1g2gjgc",
@@ -2552,13 +2552,13 @@
       "dateTimeMs": 1782763140000,
       "purchase": 1.5,
       "refund": 0,
-      "pct": 0,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x8ziice3w",
@@ -2569,13 +2569,13 @@
       "dateTimeMs": 1782764280000,
       "purchase": 28.75,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x9nd0ih43",
@@ -2585,14 +2585,14 @@
       "merchant": "SHAWARMA TIME",
       "dateTimeMs": 1782764580000,
       "purchase": 9.5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.285,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x6rkzh8iw",
@@ -2602,14 +2602,14 @@
       "merchant": "ARAMCO",
       "dateTimeMs": 1782838500000,
       "purchase": 79,
-      "refund": 0.395,
-      "pct": 0.005,
+      "refund": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "باقي المشتريات",
-      "notes": "الفئة: باقي المشتريات",
-      "withinCap": true
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xq1trxpi0",
@@ -2620,13 +2620,13 @@
       "dateTimeMs": 1782845640000,
       "purchase": 164,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xnfqfi7oz",
@@ -2637,13 +2637,13 @@
       "dateTimeMs": 1782846600000,
       "purchase": 250,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xhydf0dso",
@@ -2654,13 +2654,13 @@
       "dateTimeMs": 1782849420000,
       "purchase": 20,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xv1yv01q9",
@@ -2671,13 +2671,13 @@
       "dateTimeMs": 1782851580000,
       "purchase": 8,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xnjvwia3p",
@@ -2688,13 +2688,13 @@
       "dateTimeMs": 1782872760000,
       "purchase": 9,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xxmgvmda5",
@@ -2704,14 +2704,14 @@
       "merchant": "BAIT AL TAMIAH",
       "dateTimeMs": 1782915540000,
       "purchase": 7.5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.225,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xn5zcmqhm",
@@ -2722,13 +2722,13 @@
       "dateTimeMs": 1782955260000,
       "purchase": 1,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x8mvtwdvo",
@@ -2739,13 +2739,13 @@
       "dateTimeMs": 1782955740000,
       "purchase": 19,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xpwpdwqyk",
@@ -2755,14 +2755,14 @@
       "merchant": "CO CAFE THALATHMIAH WA SI",
       "dateTimeMs": 1782956040000,
       "purchase": 12,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.36,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x31xc1ksa",
@@ -2773,13 +2773,13 @@
       "dateTimeMs": 1782971040000,
       "purchase": 34.9,
       "refund": 0,
-      "pct": 0,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xlw5kd6vs",
@@ -2790,13 +2790,13 @@
       "dateTimeMs": 1782976380000,
       "purchase": 50,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xycz2sluo",
@@ -2807,13 +2807,13 @@
       "dateTimeMs": 1782979260000,
       "purchase": 10,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xurqcac18",
@@ -2824,13 +2824,13 @@
       "dateTimeMs": 1782981360000,
       "purchase": 30,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x90eiga01",
@@ -2841,13 +2841,13 @@
       "dateTimeMs": 1782990420000,
       "purchase": 14.5,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x2lmuj0gr",
@@ -2875,13 +2875,13 @@
       "dateTimeMs": 1783084680000,
       "purchase": 10.5,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xgr7fp6tf",
@@ -2892,13 +2892,13 @@
       "dateTimeMs": 1783085700000,
       "purchase": 8,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x5hlnhz1v",
@@ -2908,14 +2908,14 @@
       "merchant": "Reem Al Mahmadi EST",
       "dateTimeMs": 1783128480000,
       "purchase": 1,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.005,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xkmwrnhj0",
@@ -2926,12 +2926,12 @@
       "dateTimeMs": 1783160520000,
       "purchase": 5,
       "refund": 0.15,
-      "pct": 0.03,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "المطاعم",
-      "notes": "الفئة: المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
       "withinCap": true
     },
     {
@@ -2942,14 +2942,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1783360320000,
       "purchase": 13.75,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.375,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xtxcyx2p2",
@@ -2960,12 +2960,12 @@
       "dateTimeMs": 1783365600000,
       "purchase": 5,
       "refund": 0.15,
-      "pct": 0.03,
+      "pct": 3,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
       "categoryFransi": "المطاعم",
-      "notes": "الفئة: المطاعم",
+      "notes": "محسوب تلقائيًا حسب الفئة",
       "withinCap": true
     },
     {
@@ -2976,14 +2976,14 @@
       "merchant": "MOASSA SALA SAUD LLTEJARH",
       "dateTimeMs": 1783371840000,
       "purchase": 60,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.3,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xw8rktvjo",
@@ -2993,14 +2993,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1783379280000,
       "purchase": 15,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.5,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xjhbq4586",
@@ -3010,14 +3010,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1783457820000,
       "purchase": 2.5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.25,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x6h2tzbst",
@@ -3027,14 +3027,14 @@
       "merchant": "North Way Trading Est",
       "dateTimeMs": 1783462800000,
       "purchase": 25,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.125,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xoa8x1t4x",
@@ -3044,14 +3044,14 @@
       "merchant": "Reem Al Mahmadi EST",
       "dateTimeMs": 1783470420000,
       "purchase": 1,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.005,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x3ra78n1k",
@@ -3061,14 +3061,14 @@
       "merchant": "Aroob Abbad",
       "dateTimeMs": 1783479840000,
       "purchase": 9,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.045,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xuvg8lqg5",
@@ -3078,14 +3078,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1783656300000,
       "purchase": 5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.5,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x6lyiv7ki",
@@ -3095,14 +3095,14 @@
       "merchant": "Adnan Saudi Trading Estab",
       "dateTimeMs": 1783710300000,
       "purchase": 101.91,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.5095,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x99gplyx7",
@@ -3112,14 +3112,14 @@
       "merchant": "ASWAQ TOUFER JUMUM",
       "dateTimeMs": 1783757580000,
       "purchase": 1,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.1,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xpz4d5k5h",
@@ -3129,14 +3129,14 @@
       "merchant": "Reem Al Mahmadi EST",
       "dateTimeMs": 1783757640000,
       "purchase": 1,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.005,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xvuurmaud",
@@ -3146,14 +3146,14 @@
       "merchant": "tamwinat khadija",
       "dateTimeMs": 1783845300000,
       "purchase": 20,
-      "refund": 0,
-      "pct": 0,
+      "refund": 2,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xjjvd6bu7",
@@ -3163,14 +3163,14 @@
       "merchant": "tamwinat khadija",
       "dateTimeMs": 1783845360000,
       "purchase": 2,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.2,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xvwmc97fb",
@@ -3180,14 +3180,14 @@
       "merchant": "Aroob Abbad",
       "dateTimeMs": 1783923060000,
       "purchase": 7,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.035,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xs8749uzk",
@@ -3197,14 +3197,14 @@
       "merchant": "MHAMS CO",
       "dateTimeMs": 1784046300000,
       "purchase": 45,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.2205,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xx6joqfol",
@@ -3214,14 +3214,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784047740000,
       "purchase": 11.95,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.195,
+      "pct": 10,
       "channel": "POS",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xsmcz9n4w",
@@ -3231,14 +3231,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784048040000,
       "purchase": 17,
-      "refund": 0,
-      "pct": 0,
+      "refund": 1.7,
+      "pct": 10,
       "channel": "POS",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xkvzjro7h",
@@ -3249,13 +3249,13 @@
       "dateTimeMs": 1784055120000,
       "purchase": 7,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xjsrb6pfl",
@@ -3265,14 +3265,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784057520000,
       "purchase": 5.5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.55,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xrau64sj6",
@@ -3283,13 +3283,13 @@
       "dateTimeMs": 1784134080000,
       "purchase": 12,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xbyta6s11",
@@ -3300,13 +3300,13 @@
       "dateTimeMs": 1784215440000,
       "purchase": 1,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "x11dw9fyv",
@@ -3316,14 +3316,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784304900000,
       "purchase": 9,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.9,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x8agelc33",
@@ -3333,14 +3333,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784409840000,
       "purchase": 1.4,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.14,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "x5ah8bvft",
@@ -3350,14 +3350,14 @@
       "merchant": "MILA MART FOOD SUPPLIES A",
       "dateTimeMs": 1784671260000,
       "purchase": 46,
-      "refund": 0,
-      "pct": 0,
+      "refund": 4.6,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xidmwex8k",
@@ -3368,13 +3368,13 @@
       "dateTimeMs": 1784740440000,
       "purchase": 1,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xvnsxdmeh",
@@ -3384,14 +3384,14 @@
       "merchant": "aswaq blora hala",
       "dateTimeMs": 1784773140000,
       "purchase": 66.5,
-      "refund": 0,
-      "pct": 0,
+      "refund": 6.65,
+      "pct": 10,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "السوبرماركت",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": true
     },
     {
       "id": "xyrmn2xwz",
@@ -3402,13 +3402,13 @@
       "dateTimeMs": 1784878320000,
       "purchase": 18.5,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     },
     {
       "id": "xjk790jyl",
@@ -3419,13 +3419,13 @@
       "dateTimeMs": 1784967180000,
       "purchase": 28.75,
       "refund": 0,
-      "pct": 0,
+      "pct": 0.5,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "باقي المشتريات",
+      "notes": "محسوب تلقائيًا حسب الفئة",
+      "withinCap": false
     }
   ],
   "unlinked": [],
@@ -5389,6 +5389,11 @@
       "ts": 1784987977275,
       "type": "إعادة تحليل",
       "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
+    },
+    {
+      "ts": 1784988055078,
+      "type": "تعديل يدوي",
+      "message": "أعيد حساب 84 عملية فرنسي يدويًا (فئة/نسبة/استرداد/حد شهري) بعد ملاحظة إن زر إعادة التحليل بالتطبيق ما يحدّث categoryFransi رغم تعديل دليل المحلات"
     }
   ],
   "errorLog": []
