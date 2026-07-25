@@ -269,6 +269,20 @@
         <td class="num">٥٢٫٧١</td>
         <td class="num"><b>٠٫٥٣</b></td>
         <td><button class="btn-del" onclick="deleteMaterial(14)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>مغناطيس</td>
+        <td class="num">100</td>
+        <td class="num">٥٩٫٩</td>
+        <td class="num"><b>٠٫٦</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(15)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>اعواد اسنان</td>
+        <td class="num">1000</td>
+        <td class="num">٧٫٧٦</td>
+        <td class="num"><b>٠٫٠١</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(16)">حذف</button></td>
       </tr></tbody>
     </table>
     <div class="grid-form">
@@ -307,6 +321,18 @@
       </div>
       <div class="bom-list"><span>ورق مقمش 180 × 1 = ٠٫٣٨ ر.س</span></div>
       <div class="actions-row"><button class="btn-del" onclick="deleteProduct(4)">حذف المنتج</button></div>
+    </div><div class="prod-card">
+      <div class="stamp good">رابح · ٣٣٫٤٨%</div>
+      <h3>كرت طاولة مضيء</h3>
+      <div class="prod-meta">
+        <div><span class="muted">تكلفة المواد</span><b>٠٫٩٩ ر.س</b></div>
+        <div><span class="muted">اليد العاملة</span><b>٥ ر.س</b></div>
+        <div><span class="muted">إجمالي التكلفة</span><b>٥٫٩٩ ر.س</b></div>
+        <div><span class="muted">سعر البيع</span><b>٩ ر.س</b></div>
+        <div><span class="muted">الربح</span><b>٣٫٠١ ر.س</b></div>
+      </div>
+      <div class="bom-list"><span>ورق روكو 180 × 2 = ٠٫٤٦ ر.س</span><span>اضاءة × 1 = ٠٫٥٣ ر.س</span></div>
+      <div class="actions-row"><button class="btn-del" onclick="deleteProduct(5)">حذف المنتج</button></div>
     </div></div>
 
     <hr class="divider">
@@ -338,23 +364,29 @@
     </div><div class="chip " onclick="toggleChip(event, 7)">
       <span>كوب 9 اونز</span>
       
-    </div><div class="chip " onclick="toggleChip(event, 9)">
+    </div><div class="chip on" onclick="toggleChip(event, 9)">
       <span>علك</span>
-      
+      <input class="qty" type="number" step="any" value="1" placeholder="كمية" onclick="event.stopPropagation()" oninput="setQty(9, this.value)">
     </div><div class="chip " onclick="toggleChip(event, 10)">
       <span>كوب 8 اونز</span>
       
     </div><div class="chip " onclick="toggleChip(event, 11)">
       <span>اعواد شاي</span>
       
-    </div><div class="chip " onclick="toggleChip(event, 12)">
+    </div><div class="chip on" onclick="toggleChip(event, 12)">
       <span>مناديل مبلله</span>
-      
-    </div><div class="chip " onclick="toggleChip(event, 13)">
+      <input class="qty" type="number" step="any" value="1" placeholder="كمية" onclick="event.stopPropagation()" oninput="setQty(12, this.value)">
+    </div><div class="chip on" onclick="toggleChip(event, 13)">
       <span>ورق روكو 180</span>
-      
+      <input class="qty" type="number" step="any" value="1" placeholder="كمية" onclick="event.stopPropagation()" oninput="setQty(13, this.value)">
     </div><div class="chip " onclick="toggleChip(event, 14)">
       <span>اضاءة</span>
+      
+    </div><div class="chip " onclick="toggleChip(event, 15)">
+      <span>مغناطيس</span>
+      
+    </div><div class="chip " onclick="toggleChip(event, 16)">
+      <span>اعواد اسنان</span>
       
     </div></div>
     <div class="actions-row">
@@ -399,7 +431,7 @@
 
 <script>
 // ---------------- DATA (hardcoded — replaced on export) ----------------
-let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9},{"id":10,"name":"كوب 8 اونز","units":50,"price":5.75},{"id":11,"name":"اعواد شاي","units":250,"price":11.5},{"id":12,"name":"مناديل مبلله","units":50,"price":11.5},{"id":13,"name":"ورق روكو 180","units":50,"price":11.5},{"id":14,"name":"اضاءة","units":100,"price":52.71}],"products":[{"id":3,"name":"كوب ٨ اونز","labor":2,"price":4,"items":[{"materialId":2,"qty":1},{"materialId":10,"qty":1}]},{"id":4,"name":"كوب ٨ اونز مع تاق","labor":2,"price":5,"items":[{"materialId":2,"qty":1}]}],"nextMatId":15,"nextProdId":5,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
+let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9},{"id":10,"name":"كوب 8 اونز","units":50,"price":5.75},{"id":11,"name":"اعواد شاي","units":250,"price":11.5},{"id":12,"name":"مناديل مبلله","units":50,"price":11.5},{"id":13,"name":"ورق روكو 180","units":50,"price":11.5},{"id":14,"name":"اضاءة","units":100,"price":52.71},{"id":15,"name":"مغناطيس","units":100,"price":59.9},{"id":16,"name":"اعواد اسنان","units":1000,"price":7.76}],"products":[{"id":3,"name":"كوب ٨ اونز","labor":2,"price":4,"items":[{"materialId":2,"qty":1},{"materialId":10,"qty":1}]},{"id":4,"name":"كوب ٨ اونز مع تاق","labor":2,"price":5,"items":[{"materialId":2,"qty":1}]},{"id":5,"name":"كرت طاولة مضيء","labor":5,"price":9,"items":[{"materialId":13,"qty":2},{"materialId":14,"qty":1}]}],"nextMatId":17,"nextProdId":6,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
 // NOTE: the GitHub token is intentionally kept OUT of DATA (and therefore out of any
 // exported/pushed file) because GitHub's push-protection rejects commits containing
 // recognizable secrets. Instead it is saved in this browser's localStorage only, so it
