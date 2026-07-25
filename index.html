@@ -165,8 +165,8 @@
 
 <div class="tabs">
   <div class="tab" data-tab="materials">المواد الخام</div>
-  <div class="tab" data-tab="products">تسعير المنتجات</div>
-  <div class="tab active" data-tab="sync">المزامنة مع Git</div>
+  <div class="tab active" data-tab="products">تسعير المنتجات</div>
+  <div class="tab" data-tab="sync">المزامنة مع Git</div>
 </div>
 
 <div class="wrap">
@@ -301,7 +301,7 @@
   </div>
 
   <!-- PRODUCTS PANEL -->
-  <div class="panel" id="panel-products" style="display: none;">
+  <div class="panel" id="panel-products" style="display: block;">
     <h2>منتجاتك</h2>
     <p class="hint">اضغطي على المواد المستخدمة في المنتج وحددي الكمية — الباقي يتحسب تلقائي.</p>
     <div id="products-list"><div class="prod-card">
@@ -340,6 +340,18 @@
       </div>
       <div class="bom-list"><span>ورق روكو 180 × 2 = ٠٫٤٦ ر.س</span><span>اضاءة × 1 = ٠٫٥٣ ر.س</span></div>
       <div class="actions-row"><button class="btn-del" onclick="deleteProduct(5)">حذف المنتج</button></div>
+    </div><div class="prod-card">
+      <div class="stamp good">رابح · ٢٠٫٦١%</div>
+      <h3>توزيعات بعد العشاء</h3>
+      <div class="prod-meta">
+        <div><span class="muted">تكلفة المواد</span><b>٠٫٥٩ ر.س</b></div>
+        <div><span class="muted">اليد العاملة</span><b>١ ر.س</b></div>
+        <div><span class="muted">إجمالي التكلفة</span><b>١٫٥٩ ر.س</b></div>
+        <div><span class="muted">سعر البيع</span><b>٢ ر.س</b></div>
+        <div><span class="muted">الربح</span><b>٠٫٤١ ر.س</b></div>
+      </div>
+      <div class="bom-list"><span>علك × 1 = ٠٫١٢ ر.س</span><span>مناديل مبلله × 1 = ٠٫٢٣ ر.س</span><span>ورق روكو 180 × 1 = ٠٫٢٣ ر.س</span><span>اعواد اسنان × 1 = ٠٫٠١ ر.س</span></div>
+      <div class="actions-row"><button class="btn-del" onclick="deleteProduct(6)">حذف المنتج</button></div>
     </div></div>
 
     <hr class="divider">
@@ -405,7 +417,7 @@
   </div>
 
   <!-- SYNC PANEL -->
-  <div class="panel" id="panel-sync" style="display: block;">
+  <div class="panel" id="panel-sync" style="display: none;">
     <h2>المزامنة التلقائية مع Git</h2>
     <p class="hint">اربطي الدفتر بمستودع على GitHub — كل تغيير (إضافة/حذف) يُرفع تلقائيًا كنسخة كاملة من الملف بعد ثوانٍ من التوقف عن الكتابة. تقدرين أيضًا ترفعين أو تجلبين آخر نسخة يدويًا.</p>
 
@@ -441,7 +453,7 @@
 
 <script>
 // ---------------- DATA (hardcoded — replaced on export) ----------------
-let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9},{"id":10,"name":"كوب 8 اونز","units":50,"price":5.75},{"id":11,"name":"اعواد شاي","units":250,"price":11.5},{"id":12,"name":"مناديل مبلله","units":50,"price":11.5},{"id":13,"name":"ورق روكو 180","units":50,"price":11.5},{"id":14,"name":"اضاءة","units":100,"price":52.71},{"id":15,"name":"مغناطيس","units":100,"price":59.9},{"id":16,"name":"اعواد اسنان","units":1000,"price":7.76},{"id":17,"name":"كباسة","units":400,"price":18.45}],"products":[{"id":3,"name":"كوب ٨ اونز","labor":2,"price":4,"items":[{"materialId":2,"qty":1},{"materialId":10,"qty":1}]},{"id":4,"name":"كوب ٨ اونز مع تاق","labor":2,"price":5,"items":[{"materialId":2,"qty":1}]},{"id":5,"name":"كرت طاولة مضيء","labor":5,"price":9,"items":[{"materialId":13,"qty":2},{"materialId":14,"qty":1}]}],"nextMatId":18,"nextProdId":6,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
+let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9},{"id":10,"name":"كوب 8 اونز","units":50,"price":5.75},{"id":11,"name":"اعواد شاي","units":250,"price":11.5},{"id":12,"name":"مناديل مبلله","units":50,"price":11.5},{"id":13,"name":"ورق روكو 180","units":50,"price":11.5},{"id":14,"name":"اضاءة","units":100,"price":52.71},{"id":15,"name":"مغناطيس","units":100,"price":59.9},{"id":16,"name":"اعواد اسنان","units":1000,"price":7.76},{"id":17,"name":"كباسة","units":400,"price":18.45}],"products":[{"id":3,"name":"كوب ٨ اونز","labor":2,"price":4,"items":[{"materialId":2,"qty":1},{"materialId":10,"qty":1}]},{"id":4,"name":"كوب ٨ اونز مع تاق","labor":2,"price":5,"items":[{"materialId":2,"qty":1}]},{"id":5,"name":"كرت طاولة مضيء","labor":5,"price":9,"items":[{"materialId":13,"qty":2},{"materialId":14,"qty":1}]},{"id":6,"name":"توزيعات بعد العشاء","labor":1,"price":2,"items":[{"materialId":9,"qty":1},{"materialId":12,"qty":1},{"materialId":13,"qty":1},{"materialId":16,"qty":1}]}],"nextMatId":18,"nextProdId":7,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
 // NOTE: the GitHub token is intentionally kept OUT of DATA (and therefore out of any
 // exported/pushed file) because GitHub's push-protection rejects commits containing
 // recognizable secrets. Instead it is saved in this browser's localStorage only, so it
