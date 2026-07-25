@@ -445,12 +445,6 @@
       "aliases": []
     },
     {
-      "merchant": "MILA MART FOOD SUPPLIES A",
-      "category": "السوبرماركت",
-      "categoryAhli": "سوبرماركت وبقالات",
-      "aliases": []
-    },
-    {
       "merchant": "LO CAFE",
       "category": "المطاعم",
       "categoryAhli": "مطاعم وتوصيل طعام",
@@ -759,7 +753,8 @@
     {
       "merchant": "MILA MART FOOD SUPPLIES A",
       "category": "السوبرماركت",
-      "categoryAhli": "سوبرماركت وبقالات"
+      "categoryAhli": "سوبرماركت وبقالات",
+      "aliases": []
     }
   ],
   "transactions": [
@@ -5399,6 +5394,16 @@
       "ts": 1784987101302,
       "type": "تعديل محل",
       "message": "المحل \"MILA MART FOOD SUPPLIES A\" — category: \"غير مصنّف\" → \"السوبرماركت\""
+    },
+    {
+      "ts": 1784987108998,
+      "type": "دمج محلات",
+      "message": "دُمجت 2 محلات () تحت الاسم \"MILA MART FOOD SUPPLIES A\" — تحديث 0 عملية"
+    },
+    {
+      "ts": 1784987109114,
+      "type": "إعادة تحليل",
+      "message": "أُعيد تحليل 73 عملية أهلي و84 عملية فرنسي بعد تعديل الإعدادات/التصنيف"
     }
   ],
   "errorLog": []
