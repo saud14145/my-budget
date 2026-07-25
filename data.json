@@ -470,8 +470,8 @@
     },
     {
       "merchant": "Zahya Coffee EST",
-      "category": "غير مصنّف",
-      "categoryAhli": "غير مصنّف",
+      "category": "المطاعم",
+      "categoryAhli": "مطاعم وتوصيل طعام",
       "aliases": []
     },
     {
@@ -2126,14 +2126,14 @@
       "merchant": "Zahya Coffee EST",
       "dateTimeMs": 1782073080000,
       "purchase": 11.8,
-      "refund": 0,
-      "pct": 0,
+      "refund": 0.354,
+      "pct": 0.029999999999999995,
       "channel": "Apple Pay",
       "last4": "2033",
       "linkStatus": "محسوب تلقائيًا حسب الفئة",
-      "categoryFransi": "غير مصنّف",
-      "notes": "الفئة غير محددة - راجع تبويب المحلات",
-      "withinCap": null
+      "categoryFransi": "المطاعم",
+      "notes": "الفئة: المطاعم",
+      "withinCap": true
     },
     {
       "id": "xth55l8ex",
@@ -5354,6 +5354,11 @@
       "ts": 1784986545535,
       "type": "تعديل محل",
       "message": "المحل \"LULU HYPERMARKET, RUSAYFA\" — category: \"غير مصنّف\" → \"السوبرماركت\""
+    },
+    {
+      "ts": 1784986556222,
+      "type": "تعديل محل",
+      "message": "المحل \"Zahya Coffee EST\" — category: \"غير مصنّف\" → \"المطاعم\""
     }
   ],
   "errorLog": []
