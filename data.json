@@ -12,6 +12,12 @@
         "bank": "الفرنسي",
         "last4": "2033",
         "cycleStartDay": 4
+      },
+      {
+        "name": "بطاقة جديدة",
+        "bank": "الأهلي",
+        "last4": "0000",
+        "cycleStartDay": 1
       }
     ],
     "categories": [
