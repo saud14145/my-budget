@@ -164,14 +164,14 @@
 </header>
 
 <div class="tabs">
-  <div class="tab active" data-tab="materials">المواد الخام</div>
-  <div class="tab" data-tab="products">تسعير المنتجات</div>
+  <div class="tab" data-tab="materials">المواد الخام</div>
+  <div class="tab active" data-tab="products">تسعير المنتجات</div>
   <div class="tab" data-tab="sync">المزامنة مع Git</div>
 </div>
 
 <div class="wrap">
   <!-- MATERIALS PANEL -->
-  <div class="panel" id="panel-materials" style="display: block;">
+  <div class="panel" id="panel-materials" style="display: none;">
     <h2>المواد الخام</h2>
     <p class="hint">أدخلي كل ماده مرة وحدة — تكلفة الوحدة تُحسب تلقائيًا من سعر العبوة وعدد الوحدات فيها.</p>
     <table>
@@ -227,13 +227,6 @@
         <td class="num">٧</td>
         <td class="num"><b>٠٫١٤</b></td>
         <td><button class="btn-del" onclick="deleteMaterial(7)">حذف</button></td>
-      </tr>
-      <tr>
-        <td>تجوبه</td>
-        <td class="num">11</td>
-        <td class="num">١</td>
-        <td class="num"><b>٠٫٠٩</b></td>
-        <td><button class="btn-del" onclick="deleteMaterial(8)">حذف</button></td>
       </tr></tbody>
     </table>
     <div class="grid-form">
@@ -245,7 +238,7 @@
   </div>
 
   <!-- PRODUCTS PANEL -->
-  <div class="panel" id="panel-products" style="display:none;">
+  <div class="panel" id="panel-products" style="display: block;">
     <h2>منتجاتك</h2>
     <p class="hint">اضغطي على المواد المستخدمة في المنتج وحددي الكمية — الباقي يتحسب تلقائي.</p>
     <div id="products-list"><div class="empty">لا توجد منتجات بعد — سوّي أول منتج بالأسفل</div></div>
@@ -278,9 +271,6 @@
       
     </div><div class="chip " onclick="toggleChip(event, 7)">
       <span>كوب 9 اونز</span>
-      
-    </div><div class="chip " onclick="toggleChip(event, 8)">
-      <span>تجوبه</span>
       
     </div></div>
     <div class="actions-row">
@@ -325,7 +315,7 @@
 
 <script>
 // ---------------- DATA (hardcoded — replaced on export) ----------------
-let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":8,"name":"تجوبه","units":11,"price":1}],"products":[],"nextMatId":9,"nextProdId":1,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
+let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7}],"products":[],"nextMatId":9,"nextProdId":1,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
 // NOTE: the GitHub token is intentionally kept OUT of DATA (and therefore out of any
 // exported/pushed file) because GitHub's push-protection rejects commits containing
 // recognizable secrets. Instead it is saved in this browser's localStorage only, so it
@@ -670,4 +660,4 @@ renderProducts();
 </script>
 
 
-<div id="immersive-translate-popup" style="all: initial"></div></body><div id="immersive-translate-popup" style="all: initial"></div></html>
+<div id="immersive-translate-popup" style="all: initial"></div><div id="immersive-translate-popup" style="all: initial"></div></body><div id="immersive-translate-popup" style="all: initial"></div></html>
