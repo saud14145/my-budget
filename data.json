@@ -118,10 +118,2640 @@
     },
     "toleranceMinutes": 5
   },
-  "stores": [],
-  "transactions": [],
+  "stores": [
+    {
+      "merchant": "ARAMCO",
+      "category": "باقي المشتريات",
+      "categoryAhli": "وقود",
+      "aliases": []
+    },
+    {
+      "merchant": "sasco alb",
+      "category": "باقي المشتريات",
+      "categoryAhli": "وقود",
+      "aliases": []
+    },
+    {
+      "merchant": "renee al-",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "FALAFEL M",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Maha Abdu",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Juices an",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "ZEEKA",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Zahya Cof",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Fruit jui",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "TAILOR AL",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "BAIT AL T",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "North Way",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "ARKON LLO",
+      "category": "باقي المشتريات",
+      "categoryAhli": "وقود",
+      "aliases": []
+    },
+    {
+      "merchant": "MUSA ISSA",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "MTAM ASL",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "CARAVAN",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Health Ho",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Express Food Company",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Aldrees 1",
+      "category": "باقي المشتريات",
+      "categoryAhli": "وقود",
+      "aliases": []
+    },
+    {
+      "merchant": "Sahara Ar",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "ABRAG ALA",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Lawazem A",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Barns AMK",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Moroccan",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "HUNGERSTATION LLC",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Deep Clea",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "ROKON ALQ",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Cortado",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "MCDONALDS",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Aldrees 8",
+      "category": "باقي المشتريات",
+      "categoryAhli": "وقود",
+      "aliases": []
+    },
+    {
+      "merchant": "COMPANY P",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Aldrees J",
+      "category": "باقي المشتريات",
+      "categoryAhli": "وقود",
+      "aliases": []
+    },
+    {
+      "merchant": "Aldrees 9",
+      "category": "باقي المشتريات",
+      "categoryAhli": "وقود",
+      "aliases": []
+    },
+    {
+      "merchant": "BART",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "RITA PIZZ",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "PETROLI C",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Company a",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "Darb Al W",
+      "category": "باقي المشتريات",
+      "categoryAhli": "وقود",
+      "aliases": []
+    },
+    {
+      "merchant": "restauran",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "JOTUN",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "MARYAM BA",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "ABRAR IBR",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Shuroo Ca",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "ABDULLAH",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "DAMASK HO",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "STRAWBERR",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Rural Fru",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Maqha nai",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "Al NASIM",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "MAHALU AL",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    },
+    {
+      "merchant": "EXPRESS F",
+      "category": "غير مصنّف",
+      "categoryAhli": "غير مصنّف",
+      "aliases": []
+    },
+    {
+      "merchant": "AlReef Ag",
+      "category": "باقي المشتريات",
+      "categoryAhli": "باقي المشتريات",
+      "aliases": []
+    }
+  ],
+  "transactions": [
+    {
+      "id": "xltcybzyh",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ARAMCO",
+      "dateTimeMs": 1783000920000,
+      "purchase": 174,
+      "refund": 19.14,
+      "pct": 0.11,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مستنتجة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "xmy6s447f",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "sasco alb",
+      "dateTimeMs": 1783105380000,
+      "purchase": 15,
+      "refund": 1.65,
+      "pct": 0.11,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مستنتجة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "xt28jtm6u",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ARAMCO",
+      "dateTimeMs": 1783159200000,
+      "purchase": 28.01,
+      "refund": 3.08,
+      "pct": 0.10996072831131738,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مؤكدة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "xd4oico03",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "renee al-",
+      "dateTimeMs": 1783159320000,
+      "purchase": 9,
+      "refund": 0.06,
+      "pct": 0.006666666666666666,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xzkmlt3jf",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "FALAFEL M",
+      "dateTimeMs": 1783219380000,
+      "purchase": 28,
+      "refund": 1.4,
+      "pct": 0.049999999999999996,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xhky30w4d",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Maha Abdu",
+      "dateTimeMs": 1783284900000,
+      "purchase": 23,
+      "refund": 1.15,
+      "pct": 0.049999999999999996,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "x2q7oyejj",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Juices an",
+      "dateTimeMs": 1783285140000,
+      "purchase": 20,
+      "refund": 1,
+      "pct": 0.05,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "x8e4wy2za",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ZEEKA",
+      "dateTimeMs": 1783389900000,
+      "purchase": 5,
+      "refund": 0.04,
+      "pct": 0.008,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.8%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x6y3xqbly",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ARAMCO",
+      "dateTimeMs": 1783390320000,
+      "purchase": 39,
+      "refund": 4.29,
+      "pct": 0.11,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مؤكدة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "xf52vm5um",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "renee al-",
+      "dateTimeMs": 1783390380000,
+      "purchase": 6,
+      "refund": 0.04,
+      "pct": 0.006666666666666667,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xfquruhg4",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Zahya Cof",
+      "dateTimeMs": 1783527060000,
+      "purchase": 5.9,
+      "refund": 0.3,
+      "pct": 0.05084745762711864,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.1% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xqp0wkvfc",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Fruit jui",
+      "dateTimeMs": 1783553820000,
+      "purchase": 8,
+      "refund": 0.06,
+      "pct": 0.0075,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.8%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xihiic3sk",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "TAILOR AL",
+      "dateTimeMs": 1783621920000,
+      "purchase": 250,
+      "refund": 1.75,
+      "pct": 0.007,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xdqwfcqaz",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "BAIT AL T",
+      "dateTimeMs": 1783654200000,
+      "purchase": 10.5,
+      "refund": 0.53,
+      "pct": 0.05047619047619048,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "x2awz1ow9",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "North Way",
+      "dateTimeMs": 1783711140000,
+      "purchase": 50,
+      "refund": 0.35,
+      "pct": 0.006999999999999999,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xc7h5mpeg",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ARAMCO",
+      "dateTimeMs": 1783720800000,
+      "purchase": 116,
+      "refund": 12.76,
+      "pct": 0.11,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مؤكدة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "x0fdc6t0g",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ARKON LLO",
+      "dateTimeMs": 1783732020000,
+      "purchase": 93,
+      "refund": 10.23,
+      "pct": 0.11,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مستنتجة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "xhsjdtb5t",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "MUSA ISSA",
+      "dateTimeMs": 1783733580000,
+      "purchase": 8,
+      "refund": 0.4,
+      "pct": 0.05,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xwqxuws3l",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "MTAM ASL",
+      "dateTimeMs": 1783736880000,
+      "purchase": 31,
+      "refund": 0.22,
+      "pct": 0.0070967741935483875,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x0tlfm8rr",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "CARAVAN",
+      "dateTimeMs": 1783745760000,
+      "purchase": 120,
+      "refund": 0.84,
+      "pct": 0.007,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x114jdmp0",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "MUSA ISSA",
+      "dateTimeMs": 1783803480000,
+      "purchase": 24,
+      "refund": 1.2,
+      "pct": 0.049999999999999996,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "x8qq6w2rl",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Health Ho",
+      "dateTimeMs": 1783812840000,
+      "purchase": 11,
+      "refund": 0.08,
+      "pct": 0.007272727272727273,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xnw06i7oz",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Express Food Company",
+      "dateTimeMs": 1783863840000,
+      "purchase": 55.63,
+      "refund": 2.78,
+      "pct": 0.04997303613158367,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xosk561vk",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Aldrees 1",
+      "dateTimeMs": 1784023020000,
+      "purchase": 88,
+      "refund": 9.68,
+      "pct": 0.11,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مستنتجة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "x32kg3vci",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Sahara Ar",
+      "dateTimeMs": 1784028180000,
+      "purchase": 11,
+      "refund": 0.55,
+      "pct": 0.05,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "x3atj9rpr",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ABRAG ALA",
+      "dateTimeMs": 1784028180000,
+      "purchase": 2.5,
+      "refund": 0.13,
+      "pct": 0.052000000000000005,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.2% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xoptc5ic5",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Lawazem A",
+      "dateTimeMs": 1784047200000,
+      "purchase": 3000,
+      "refund": 21,
+      "pct": 0.007,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xit3qxwi1",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Lawazem A",
+      "dateTimeMs": 1784054220000,
+      "purchase": 265,
+      "refund": 1.86,
+      "pct": 0.007018867924528303,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xjhm5s661",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Barns AMK",
+      "dateTimeMs": 1784055540000,
+      "purchase": 14,
+      "refund": 0.7,
+      "pct": 0.049999999999999996,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "x0iws6dar",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Moroccan",
+      "dateTimeMs": 1784055840000,
+      "purchase": 12,
+      "refund": 0.08,
+      "pct": 0.006666666666666667,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xef3bwgv7",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ARAMCO",
+      "dateTimeMs": 1784136120000,
+      "purchase": 30.03,
+      "refund": 3.3,
+      "pct": 0.10989010989010987,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مؤكدة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "x7rjwc1oz",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "HUNGERSTATION LLC",
+      "dateTimeMs": 1784150280000,
+      "purchase": 37.89,
+      "refund": 1.89,
+      "pct": 0.0498812351543943,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xhng1hn3k",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Deep Clea",
+      "dateTimeMs": 1784241600000,
+      "purchase": 300,
+      "refund": 2.1,
+      "pct": 0.007,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xs1v8vodp",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ROKON ALQ",
+      "dateTimeMs": 1784341920000,
+      "purchase": 10,
+      "refund": 0.5,
+      "pct": 0.05,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xngy5h6qz",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Cortado",
+      "dateTimeMs": 1784363640000,
+      "purchase": 8.5,
+      "refund": 0.06,
+      "pct": 0.007058823529411764,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xk1s9ch24",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "BAIT AL T",
+      "dateTimeMs": 1784374920000,
+      "purchase": 9.5,
+      "refund": 0.48,
+      "pct": 0.05052631578947368,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.1% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xzghbp2xg",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ZEEKA",
+      "dateTimeMs": 1784388360000,
+      "purchase": 9,
+      "refund": 0.06,
+      "pct": 0.006666666666666666,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x5i4cv27j",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "MCDONALDS",
+      "dateTimeMs": 1784388900000,
+      "purchase": 55,
+      "refund": 2.75,
+      "pct": 0.05,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xcpd27fu1",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Aldrees 8",
+      "dateTimeMs": 1784446380000,
+      "purchase": 10,
+      "refund": 1.1,
+      "pct": 0.11000000000000001,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مستنتجة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "xao76byem",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "COMPANY P",
+      "dateTimeMs": 1784466720000,
+      "purchase": 1120,
+      "refund": 7.84,
+      "pct": 0.007,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x65m4rcx7",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "COMPANY P",
+      "dateTimeMs": 1784468160000,
+      "purchase": 60,
+      "refund": 0.42,
+      "pct": 0.007,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xop49gv53",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "COMPANY P",
+      "dateTimeMs": 1784468220000,
+      "purchase": 40,
+      "refund": 0.28,
+      "pct": 0.007000000000000001,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xnyckumi0",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Aldrees J",
+      "dateTimeMs": 1784469840000,
+      "purchase": 206.58,
+      "refund": 22.72,
+      "pct": 0.10998160518927291,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مستنتجة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "x532fiaj0",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Aldrees 9",
+      "dateTimeMs": 1784472540000,
+      "purchase": 24.9,
+      "refund": 2.74,
+      "pct": 0.1100401606425703,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مستنتجة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "x973asbmu",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Zahya Cof",
+      "dateTimeMs": 1784474040000,
+      "purchase": 7.9,
+      "refund": 0.4,
+      "pct": 0.05063291139240506,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.1% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xj43srmpc",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "BART",
+      "dateTimeMs": 1784500740000,
+      "purchase": 14,
+      "refund": 0.7,
+      "pct": 0.049999999999999996,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "x3mvxzd01",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "RITA PIZZ",
+      "dateTimeMs": 1784505480000,
+      "purchase": 32,
+      "refund": 1.6,
+      "pct": 0.05,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xd2cshmmw",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ZEEKA",
+      "dateTimeMs": 1784553240000,
+      "purchase": 9,
+      "refund": 0.06,
+      "pct": 0.006666666666666666,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xoc6kg9jm",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ZEEKA",
+      "dateTimeMs": 1784607300000,
+      "purchase": 5,
+      "refund": 0.25,
+      "pct": 0.05,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x5l9iqole",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "PETROLI C",
+      "dateTimeMs": 1784607540000,
+      "purchase": 20,
+      "refund": 0.14,
+      "pct": 0.007000000000000001,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x4tuwhe4p",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Company a",
+      "dateTimeMs": 1784620080000,
+      "purchase": 5.5,
+      "refund": 0.28,
+      "pct": 0.05090909090909091,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.1% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xquaq6j9l",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ZEEKA",
+      "dateTimeMs": 1784642940000,
+      "purchase": 9,
+      "refund": 0.06,
+      "pct": 0.006666666666666666,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xczup6978",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Darb Al W",
+      "dateTimeMs": 1784647680000,
+      "purchase": 83,
+      "refund": 9.13,
+      "pct": 0.11000000000000001,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (مستنتجة من نسبة الاسترداد 11.0%)",
+      "categoryAhli": "وقود",
+      "withinCap": true
+    },
+    {
+      "id": "x97rprl9j",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "restauran",
+      "dateTimeMs": 1784692860000,
+      "purchase": 32,
+      "refund": 1.6,
+      "pct": 0.05,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xe8vvij0x",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "JOTUN",
+      "dateTimeMs": 1784695620000,
+      "purchase": 825,
+      "refund": 5.78,
+      "pct": 0.007006060606060606,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x5kprt41a",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Health Ho",
+      "dateTimeMs": 1784700660000,
+      "purchase": 11.3,
+      "refund": 0.08,
+      "pct": 0.007079646017699115,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xsk6iurc8",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Sahara Ar",
+      "dateTimeMs": 1784701020000,
+      "purchase": 38,
+      "refund": 1.9,
+      "pct": 0.049999999999999996,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xpwcca93u",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "MARYAM BA",
+      "dateTimeMs": 1784707320000,
+      "purchase": 24,
+      "refund": 0.17,
+      "pct": 0.007083333333333334,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x351aipee",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ABRAR IBR",
+      "dateTimeMs": 1784735520000,
+      "purchase": 8.5,
+      "refund": 0.06,
+      "pct": 0.007058823529411764,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x6zpcl9ip",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ARAMCO",
+      "dateTimeMs": 1784770380000,
+      "purchase": 100.01,
+      "refund": 0.18,
+      "pct": 0.0017998200179982,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: وقود (11.0% متوقعة) — الاسترداد الفعلي 0.2% لا يطابقها، يُحتمل الوصول للحد الشهري",
+      "categoryAhli": "وقود",
+      "withinCap": false
+    },
+    {
+      "id": "xnw7i6111",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Shuroo Ca",
+      "dateTimeMs": 1784773260000,
+      "purchase": 14,
+      "refund": 0.7,
+      "pct": 0.049999999999999996,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xtrf4vbrd",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ABDULLAH",
+      "dateTimeMs": 1784775480000,
+      "purchase": 21.5,
+      "refund": 1.08,
+      "pct": 0.05023255813953489,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "x1fjep410",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "DAMASK HO",
+      "dateTimeMs": 1784786940000,
+      "purchase": 450,
+      "refund": 3.15,
+      "pct": 0.007,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xxtv7qh11",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "HUNGERSTATION LLC",
+      "dateTimeMs": 1784811540000,
+      "purchase": 79.67,
+      "refund": 3.98,
+      "pct": 0.0499560687837329,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "xyiqrrfcm",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "STRAWBERR",
+      "dateTimeMs": 1784817540000,
+      "purchase": 165,
+      "refund": 1.16,
+      "pct": 0.00703030303030303,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x8x1knvh9",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Rural Fru",
+      "dateTimeMs": 1784818860000,
+      "purchase": 30,
+      "refund": 0.21,
+      "pct": 0.007,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x8tgi6bay",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "STRAWBERR",
+      "dateTimeMs": 1784820660000,
+      "purchase": 25,
+      "refund": 0.18,
+      "pct": 0.0072,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xks3aef6d",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Maqha nai",
+      "dateTimeMs": 1784823660000,
+      "purchase": 6,
+      "refund": 0.04,
+      "pct": 0.006666666666666667,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x0c8jnvhn",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "Al NASIM",
+      "dateTimeMs": 1784832660000,
+      "purchase": 15,
+      "refund": 0.11,
+      "pct": 0.007333333333333333,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x0zxoabla",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "MAHALU AL",
+      "dateTimeMs": 1784833320000,
+      "purchase": 125,
+      "refund": 0.88,
+      "pct": 0.00704,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "x5c3lztcv",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "EXPRESS F",
+      "dateTimeMs": 1784836860000,
+      "purchase": 39,
+      "refund": 1.95,
+      "pct": 0.049999999999999996,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "نسبة 5.0% تطابق أكثر من فئة (مطاعم وتوصيل طعام / سوبرماركت وبقالات / صيدليات) — حدد فئة المحل يدويًا بتبويب المحلات للتأكيد",
+      "categoryAhli": "غير مصنّف",
+      "withinCap": null
+    },
+    {
+      "id": "x11vqw2oi",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "AlReef Ag",
+      "dateTimeMs": 1784872620000,
+      "purchase": 75.6,
+      "refund": 0.53,
+      "pct": 0.007010582010582011,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مستنتجة من نسبة الاسترداد 0.7%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    },
+    {
+      "id": "xwcgm6vmk",
+      "type": "شراء - Apple Pay",
+      "card": "بطاقة الأهلي - الاسترداد المميز",
+      "bank": "الأهلي",
+      "merchant": "ZEEKA",
+      "dateTimeMs": 1784913420000,
+      "purchase": 5,
+      "refund": 0.04,
+      "pct": 0.008,
+      "channel": "Apple Pay",
+      "last4": "3204",
+      "linkStatus": "مرتبط",
+      "notes": "الفئة: باقي المشتريات (مؤكدة من نسبة الاسترداد 0.8%)",
+      "categoryAhli": "باقي المشتريات",
+      "withinCap": null
+    }
+  ],
   "unlinked": [],
-  "raw": [],
+  "raw": [
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ174.00 SAR\nمن ARAMCO\nإئتمانية **3204 (Apple Pay)\nفي 02/07/26 17:02\nالصرف المتبقي 29845.14 SAR",
+      "hash": "7af0aee4_104",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 19.14 SAR\nفي 02/07/26 17:02\nالصرف المتبقي 29845.14 SAR",
+      "hash": "7731d8b4_91",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ15.00 SAR\nمن sasco alb\nإئتمانية **3204 (Apple Pay)\nفي 03/07/26 22:03\nالصرف المتبقي 29831.79 SAR",
+      "hash": "65a10ded_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.65 SAR\nفي 03/07/26 22:03\nالصرف المتبقي 29831.79 SAR",
+      "hash": "54a8a1e5_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 3.08 SAR\nفي 04/07/26 13:00\nالصرف المتبقي 29806.86 SAR",
+      "hash": "2b8f97ae_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ28.01 SAR\nمن ARAMCO\nإئتمانية **3204 (Apple Pay)\nفي 04/07/26 13:00\nالصرف المتبقي 29806.86 SAR",
+      "hash": "3821b31_103",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ9.00 SAR\nمن renee al-\nإئتمانية **3204 (Apple Pay)\nفي 04/07/26 13:02\nالصرف المتبقي 29797.92 SAR",
+      "hash": "1849e89_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.06 SAR\nفي 04/07/26 13:02\nالصرف المتبقي 29797.92 SAR",
+      "hash": "3d902783_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ28.00 SAR\nمن FALAFEL M\nإئتمانية **3204 (Apple Pay)\nفي 05/07/26 05:43\nالصرف المتبقي 29771.32 SAR",
+      "hash": "c3d2b0ca_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.40 SAR\nفي 05/07/26 05:43\nالصرف المتبقي 29771.32 SAR",
+      "hash": "51ba9821_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ23.00 SAR\nمن Maha Abdu\nإئتمانية **3204 (Apple Pay)\nفي 05/07/26 23:55\nالصرف المتبقي 29749.47 SAR",
+      "hash": "e3d37434_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.15 SAR\nفي 05/07/26 23:55\nالصرف المتبقي 29749.47 SAR",
+      "hash": "db327dab_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ20.00 SAR\nمن Juices an\nإئتمانية **3204 (Apple Pay)\nفي 05/07/26 23:59\nالصرف المتبقي 29730.47 SAR",
+      "hash": "6f418cce_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.00 SAR\nفي 05/07/26 23:59\nالصرف المتبقي 29730.47 SAR",
+      "hash": "ca41246d_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ5.00 SAR\nمن ZEEKA\nإئتمانية **3204 (Apple Pay)\nفي 07/07/26 05:05\nالصرف المتبقي 29725.51 SAR",
+      "hash": "abce06e9_101",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.04 SAR\nفي 07/07/26 05:05\nالصرف المتبقي 29725.51 SAR",
+      "hash": "479c1ba4_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ39.00 SAR\nمن ARAMCO\nإئتمانية **3204 (Apple Pay)\nفي 07/07/26 05:12\nالصرف المتبقي 29690.80 SAR",
+      "hash": "632733f0_103",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 4.29 SAR\nفي 07/07/26 05:12\nالصرف المتبقي 29690.80 SAR",
+      "hash": "f20e68a_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ6.00 SAR\nمن renee al-\nإئتمانية **3204 (Apple Pay)\nفي 07/07/26 05:13\nالصرف المتبقي 29684.84 SAR",
+      "hash": "6c478c66_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.04 SAR\nفي 07/07/26 05:13\nالصرف المتبقي 29684.84 SAR",
+      "hash": "afb83801_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ5.90 SAR\nمن Zahya Cof\nإئتمانية **3204 (Apple Pay)\nفي 08/07/26 19:11\nالصرف المتبقي 29679.24 SAR",
+      "hash": "bea50ebc_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.30 SAR\nفي 08/07/26 19:11\nالصرف المتبقي 29679.24 SAR",
+      "hash": "6aeea72e_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "حوالة واردة حساب مواطن\nمبلغ 720SAR\nحساب0105*\nفي09/07/26 01:56",
+      "hash": "4c81ed2_61",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ8.00 SAR\nمن Fruit jui\nإئتمانية **3204 (Apple Pay)\nفي 09/07/26 02:37\nالصرف المتبقي 29671.30 SAR",
+      "hash": "10f07031_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.06 SAR\nفي 09/07/26 02:37\nالصرف المتبقي 29671.30 SAR",
+      "hash": "23407a09_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "سداد بطاقة ائتمانية\nمن حساب *0105\nالى بطاقة **3204\nمبلغ SAR 269.53\nفي 09/07/26 02:40\nالصرف المتبقي SAR 29716.93",
+      "hash": "a33922aa_111",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "سداد بطاقة ائتمانية\nمن حساب *0105\nالى بطاقة **3204\nمبلغ SAR 45.63\nفي 09/07/26 08:17\nالصرف المتبقي SAR 29986.46",
+      "hash": "b2922b2_110",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء انترنت\nبـ404.84 SAR\nمن 0105*\nمن MYSR D360\nمدى-ابل *2122\nفي 09/07/26 08:20",
+      "hash": "5ae31157_78",
+      "type": "OTHER_CARD"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.75 SAR\nفي 09/07/26 21:32\nالصرف المتبقي 29738.21 SAR",
+      "hash": "2ad12ba4_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ250.00 SAR\nمن TAILOR AL\nإئتمانية **3204 (Apple Pay)\nفي 09/07/26 21:32\nالصرف المتبقي 29738.21 SAR",
+      "hash": "d66bdfdc_107",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "حوالة واردة داخلية\nمبلغ:500 SAR\nمرسل:علاء احمد\nمن:0801*\nإلى:0100*\nفي:09/07/26 21:40",
+      "hash": "382b56c2_83",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108233,
+      "text": "شراء-POS\nبـ10.50 SAR\nمن BAIT AL T\nإئتمانية **3204 (Apple Pay)\nفي 10/07/26 06:30\nالصرف المتبقي 29728.24 SAR",
+      "hash": "929a0d83_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.53 SAR\nفي 10/07/26 06:30\nالصرف المتبقي 29728.24 SAR",
+      "hash": "f58ef1ca_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.35 SAR\nفي 10/07/26 22:19\nالصرف المتبقي 29678.59 SAR",
+      "hash": "26a92ce9_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ50.00 SAR\nمن North Way\nإئتمانية **3204 (Apple Pay)\nفي 10/07/26 22:19\nالصرف المتبقي 29678.59 SAR",
+      "hash": "14db9646_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 12.76 SAR\nفي 11/07/26 01:00\nالصرف المتبقي 29575.35 SAR",
+      "hash": "4d960611_91",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ116.00 SAR\nمن ARAMCO\nإئتمانية **3204 (Apple Pay)\nفي 11/07/26 01:00\nالصرف المتبقي 29575.35 SAR",
+      "hash": "b102b6ca_104",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 10.23 SAR\nفي 11/07/26 04:07\nالصرف المتبقي 29492.58 SAR",
+      "hash": "ed7a7392_91",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ93.00 SAR\nمن ARKON LLO\nإئتمانية **3204 (Apple Pay)\nفي 11/07/26 04:07\nالصرف المتبقي 29492.58 SAR",
+      "hash": "fd51afb2_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.40 SAR\nفي 11/07/26 04:33\nالصرف المتبقي 29484.98 SAR",
+      "hash": "bffa076a_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ8.00 SAR\nمن MUSA ISSA\nإئتمانية **3204 (Apple Pay)\nفي 11/07/26 04:33\nالصرف المتبقي 29484.98 SAR",
+      "hash": "df8baf38_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.22 SAR\nفي 11/07/26 05:28\nالصرف المتبقي 29454.20 SAR",
+      "hash": "8ebb842b_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ31.00 SAR\nمن MTAM ASL \nإئتمانية **3204 (Apple Pay)\nفي 11/07/26 05:28\nالصرف المتبقي 29454.20 SAR",
+      "hash": "2b61468e_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ120.00 SAR\nمن CARAVAN\nإئتمانية **3204 (Apple Pay)\nفي 11/07/26 07:56\nالصرف المتبقي 29335.04 SAR",
+      "hash": "5bbc2c11_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.84 SAR\nفي 11/07/26 07:56\nالصرف المتبقي 29335.04 SAR",
+      "hash": "3b52406a_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "حوالة واردة محلية\nإلى:9706*\nمبلغ:270 SAR\nمن:سعود سليمان الرحيلي\nعبر:D360 bank\nفي:11/07/26 23:02",
+      "hash": "1488f08b_95",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "سداد بطاقة ائتمانية\nمن حساب *9706\nالى بطاقة **3204\nمبلغ SAR 256.19\nفي 11/07/26 23:13\nالصرف المتبقي SAR 29601.20",
+      "hash": "292ab3a7_111",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "سداد بطاقة ائتمانية\nمن حساب *9706\nالى بطاقة **3204\nمبلغ SAR 13.81\nفي 11/07/26 23:14\nالصرف المتبقي SAR 29615.01",
+      "hash": "f66bea14_110",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.20 SAR\nفي 11/07/26 23:58\nالصرف المتبقي 29582.24 SAR",
+      "hash": "a05c5345_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ24.00 SAR\nمن MUSA ISSA\nإئتمانية **3204 (Apple Pay)\nفي 11/07/26 23:58\nالصرف المتبقي 29582.24 SAR",
+      "hash": "e2ba378e_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ11.00 SAR\nمن Health Ho\nإئتمانية **3204 (Apple Pay)\nفي 12/07/26 02:34\nالصرف المتبقي 29571.32 SAR",
+      "hash": "3136e90_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.08 SAR\nفي 12/07/26 02:34\nالصرف المتبقي 29571.32 SAR",
+      "hash": "7f3e9ef_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "لا تشارك رمز التفعيل 4154\nلعملية إظهار بيانات بطاقة ائتمانية",
+      "hash": "ddbd1578_60",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "تم اصدار الكشف الإلكتروني لبطاقتك الائتمانية **3204",
+      "hash": "8854e457_51",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "مبلغ كشف الحساب 12.81 ريال\nالمبلغ المستحق 12.81 ريال \nتاريخ الاستحقاق 05/08/2026",
+      "hash": "520662f6_80",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 2.78 SAR\nفي 12/07/26 16:44\nالصرف المتبقي 29518.47 SAR",
+      "hash": "2fbfdbc5_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء إنترنت (Apple Pay)\nمبلغ 55.63 SAR\nبطاقة ائتمانية ***3204 \nمن Express Food Company\nالتاريخ 12/07/26 16:44\nالصرف المتبقي 29518.47 SAR",
+      "hash": "1d3d6c3b_136",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ88.00 SAR\nمن Aldrees 1\nإئتمانية **3204 (Apple Pay)\nفي 14/07/26 12:57\nالصرف المتبقي 29440.15 SAR",
+      "hash": "725acf16_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 9.68 SAR\nفي 14/07/26 12:57\nالصرف المتبقي 29440.15 SAR",
+      "hash": "3e2c5e24_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ11.00 SAR\nمن Sahara Ar\nإئتمانية **3204 (Apple Pay)\nفي 14/07/26 14:23\nالصرف المتبقي 29429.70 SAR",
+      "hash": "12a5761d_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.55 SAR\nفي 14/07/26 14:23\nالصرف المتبقي 29429.70 SAR",
+      "hash": "920e77aa_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ2.50 SAR\nمن ABRAG ALA\nإئتمانية **3204 (Apple Pay)\nفي 14/07/26 14:23\nالصرف المتبقي 29427.33 SAR",
+      "hash": "a1f19023_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.13 SAR\nفي 14/07/26 14:23\nالصرف المتبقي 29427.33 SAR",
+      "hash": "27c77621_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ30 SAR\nمن Kunafa Al\nمدى-أثير*7482\nفي 14/07/26 19:35",
+      "hash": "3cfd0b33_62",
+      "type": "OTHER_CARD"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 21.00 SAR\nفي 14/07/26 19:40\nالصرف المتبقي 26448.33 SAR",
+      "hash": "8a164dfe_91",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ3000.00 SAR\nمن Lawazem A\nإئتمانية **3204 (Apple Pay)\nفي 14/07/26 19:40\nالصرف المتبقي 26448.33 SAR",
+      "hash": "d995bb6a_108",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.86 SAR\nفي 14/07/26 21:37\nالصرف المتبقي 26185.19 SAR",
+      "hash": "5084285_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ265.00 SAR\nمن Lawazem A\nإئتمانية **3204 (Apple Pay)\nفي 14/07/26 21:37\nالصرف المتبقي 26185.19 SAR",
+      "hash": "144d9c1f_107",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.70 SAR\nفي 14/07/26 21:59\nالصرف المتبقي 26171.89 SAR",
+      "hash": "72671ae7_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ14.00 SAR\nمن Barns AMK\nإئتمانية **3204 (Apple Pay)\nفي 14/07/26 21:59\nالصرف المتبقي 26171.89 SAR",
+      "hash": "7e779742_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.08 SAR\nفي 14/07/26 22:04\nالصرف المتبقي 26159.97 SAR",
+      "hash": "1ca4eca6_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ12.00 SAR\nمن Moroccan \nإئتمانية **3204 (Apple Pay)\nفي 14/07/26 22:04\nالصرف المتبقي 26159.97 SAR",
+      "hash": "4de559f1_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "حوالة واردة محلية\nإلى:9706*\nمبلغ:3265 SAR\nمن:سعود سليمان الرحيلي\nعبر:D360 bank\nفي:14/07/26 23:48",
+      "hash": "25ed6c57_96",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "سداد بطاقة ائتمانية\nمن حساب *9706\nالى بطاقة **3204\nمبلغ SAR 475.93\nفي 14/07/26 23:49\nالصرف المتبقي SAR 26635.90",
+      "hash": "6d41152b_111",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "سداد بطاقة ائتمانية\nمن حساب *9706\nالى بطاقة **3204\nمبلغ SAR 2789.07\nفي 14/07/26 23:51\nالصرف المتبقي SAR 29424.97",
+      "hash": "d16eed37_112",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 3.30 SAR\nفي 15/07/26 20:22\nالصرف المتبقي 29398.24 SAR",
+      "hash": "ba82a501_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ30.03 SAR\nمن ARAMCO\nإئتمانية **3204 (Apple Pay)\nفي 15/07/26 20:22\nالصرف المتبقي 29398.24 SAR",
+      "hash": "4764093e_103",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء انترنت\nبـ470.45 SAR\nمن 0100*\nمن barq\nمدى-ابل *7482\nفي 15/07/26 22:19",
+      "hash": "68aa437d_73",
+      "type": "OTHER_CARD"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.89 SAR\nفي 16/07/26 00:18\nالصرف المتبقي 29367.84 SAR",
+      "hash": "785291e3_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء إنترنت (Apple Pay)\nمبلغ 37.89 SAR\nبطاقة ائتمانية ***3204 \nمن HUNGERSTATION LLC\nالتاريخ 16/07/26 00:18\nالصرف المتبقي 29367.84 SAR",
+      "hash": "719d95f5_133",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "بطاقة إئتمانية الغاء حجز مبلغ\nبطاقة **3204\nمبلغ 5.60 SAR\nمن Zahya Coffee EST\nفي 08/07/2026 19:11\nالرصيد المتبقي 29367.84",
+      "hash": "38ad92f6_120",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "مبروك ! تم تفعيل بطاقتك الائتمانية رقم **3204 استخدم بطاقتك الان للاستفادة من خدمة الاسترجاع النقدي.",
+      "hash": "1bc1dd06_100",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "تم تغيير الرقم السري للبطاقة الائتمانية رقم **3204 في 16/07/26 14:25",
+      "hash": "88981ced_68",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "حوالة واردة محلية\nإلى:0100*\nمبلغ:1000 SAR\nمن:سعود سليمان الرحيلي\nعبر:D360 bank\nفي:16/07/26 14:44",
+      "hash": "b81284b7_96",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ460 SAR\nمن AMAZON SA\nمدى-أثير*7482\nفي 16/07/26 18:46",
+      "hash": "b9e9e63a_63",
+      "type": "OTHER_CARD"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 2.10 SAR\nفي 17/07/26 01:40\nالصرف المتبقي 28839.94 SAR",
+      "hash": "1b22a8ad_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ300.00 SAR\nمن Deep Clea\nإئتمانية **3204 (Apple Pay)\nفي 17/07/26 01:40\nالصرف المتبقي 28839.94 SAR",
+      "hash": "aacd854e_107",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "تم خصم الرسوم السنوية لبطاقتك الإئتمانية **3204 بمبلغ 230.00. للمزيد من المعلومات الرجاء زيارة الأهلي موبايل",
+      "hash": "6c9e1cc0_108",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "حوالة واردة محلية\nإلى:9706*\nمبلغ:1160 SAR\nمن:SAUD ALREHAILI\nعبر:ARAB NATIONAL BANK\nفي:17/07/26 16:51",
+      "hash": "2f6d51f2_100",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "سداد بطاقة ائتمانية\nمن حساب *9706\nالى بطاقة **3204\nمبلغ SAR 1160.00\nفي 17/07/26 16:54\nالصرف المتبقي SAR 29999.94",
+      "hash": "a43d0a9a_112",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء انترنت\nبـ540 SAR\nمن 0100*\nمن barq\nمدى-ابل *7482\nفي 17/07/26 18:04",
+      "hash": "f3192757_70",
+      "type": "OTHER_CARD"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ10.00 SAR\nمن ROKON ALQ\nإئتمانية **3204 (Apple Pay)\nفي 18/07/26 05:32\nالصرف المتبقي 29990.44 SAR",
+      "hash": "7dcb248_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.50 SAR\nفي 18/07/26 05:32\nالصرف المتبقي 29990.44 SAR",
+      "hash": "55fe092b_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ8.50 SAR\nمن Cortado\nإئتمانية **3204 (Apple Pay)\nفي 18/07/26 11:34\nالصرف المتبقي 29982.00 SAR",
+      "hash": "23fd86ff_103",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.06 SAR\nفي 18/07/26 11:34\nالصرف المتبقي 29982.00 SAR",
+      "hash": "85ed7208_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ9.50 SAR\nمن BAIT AL T\nإئتمانية **3204 (Apple Pay)\nفي 18/07/26 14:42\nالصرف المتبقي 29972.98 SAR",
+      "hash": "b6faee33_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.48 SAR\nفي 18/07/26 14:42\nالصرف المتبقي 29972.98 SAR",
+      "hash": "a92d79e8_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "حوالة واردة محلية\nإلى:0100*\nمبلغ:81 SAR\nمن:سعود سليمان الرحيلي\nعبر:D360 bank\nفي:18/07/26 16:24",
+      "hash": "9bdc6255_94",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "الرقم السري لمره واحده",
+      "hash": "ccc7c606_22",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "لعملية الشراء عبر الإنترنت 3412\nمبلغ SAR 80.71\nلدى Amazon\nلبطاقة *7482\nتاريخ 18/07/2026 16:24\nشراء محلي عبر الانترنت\nبـ80.71 SAR\nمن 0100*\nمن Amazon SA\nمدى *7482\nفي 18/07/26 16:25",
+      "hash": "a51ca4bd_178",
+      "type": "OTHER_CARD"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ9.00 SAR\nمن ZEEKA\nإئتمانية **3204 (Apple Pay)\nفي 18/07/26 18:26\nالصرف المتبقي 29964.04 SAR",
+      "hash": "cc867b4d_101",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.06 SAR\nفي 18/07/26 18:26\nالصرف المتبقي 29964.04 SAR",
+      "hash": "3136ed8e_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 2.75 SAR\nفي 18/07/26 18:35\nالصرف المتبقي 29911.79 SAR",
+      "hash": "36347a82_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ55.00 SAR\nمن MCDONALDS\nإئتمانية **3204 (Apple Pay)\nفي 18/07/26 18:35\nالصرف المتبقي 29911.79 SAR",
+      "hash": "d067aebf_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ10.00 SAR\nمن Aldrees 8\nإئتمانية **3204 (Apple Pay)\nفي 19/07/26 10:33\nالصرف المتبقي 29902.89 SAR",
+      "hash": "79ed105d_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.10 SAR\nفي 19/07/26 10:33\nالصرف المتبقي 29902.89 SAR",
+      "hash": "bfb64400_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 7.84 SAR\nفي 19/07/26 16:12\nالصرف المتبقي 28790.73 SAR",
+      "hash": "10c0578f_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ1120.00 SAR\nمن COMPANY P\nإئتمانية **3204 (Apple Pay)\nفي 19/07/26 16:12\nالصرف المتبقي 28790.73 SAR",
+      "hash": "d7d203fd_108",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ60.00 SAR\nمن COMPANY P\nإئتمانية **3204 (Apple Pay)\nفي 19/07/26 16:36\nالصرف المتبقي 28731.15 SAR",
+      "hash": "d7c897b4_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.42 SAR\nفي 19/07/26 16:36\nالصرف المتبقي 28731.15 SAR",
+      "hash": "b3fed16f_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.28 SAR\nفي 19/07/26 16:37\nالصرف المتبقي 28691.43 SAR",
+      "hash": "32f35a0a_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ40.00 SAR\nمن COMPANY P\nإئتمانية **3204 (Apple Pay)\nفي 19/07/26 16:37\nالصرف المتبقي 28691.43 SAR",
+      "hash": "91c3c85f_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ206.58 SAR\nمن Aldrees J\nإئتمانية **3204 (Apple Pay)\nفي 19/07/26 17:04\nالصرف المتبقي 28507.57 SAR",
+      "hash": "2ecc8c3f_107",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 22.72 SAR\nفي 19/07/26 17:04\nالصرف المتبقي 28507.57 SAR",
+      "hash": "ec964c9d_91",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 2.74 SAR\nفي 19/07/26 17:49\nالصرف المتبقي 28485.41 SAR",
+      "hash": "be7159cc_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ24.90 SAR\nمن Aldrees 9\nإئتمانية **3204 (Apple Pay)\nفي 19/07/26 17:49\nالصرف المتبقي 28485.41 SAR",
+      "hash": "1431b91f_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.40 SAR\nفي 19/07/26 18:14\nالصرف المتبقي 28477.91 SAR",
+      "hash": "767127ce_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ7.90 SAR\nمن Zahya Cof\nإئتمانية **3204 (Apple Pay)\nفي 19/07/26 18:14\nالصرف المتبقي 28477.91 SAR",
+      "hash": "75b4fb99_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.70 SAR\nفي 20/07/26 01:39\nالصرف المتبقي 28464.61 SAR",
+      "hash": "ca5dd0ad_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ14.00 SAR\nمن BART\nإئتمانية **3204 (Apple Pay)\nفي 20/07/26 01:39\nالصرف المتبقي 28464.61 SAR",
+      "hash": "a29a8c6_101",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ32.00 SAR\nمن RITA PIZZ\nإئتمانية **3204 (Apple Pay)\nفي 20/07/26 02:58\nالصرف المتبقي 28434.21 SAR",
+      "hash": "e4f50975_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.60 SAR\nفي 20/07/26 02:58\nالصرف المتبقي 28434.21 SAR",
+      "hash": "5d02d108_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.06 SAR\nفي 20/07/26 16:14\nالصرف المتبقي 28425.27 SAR",
+      "hash": "a691aa42_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ9.00 SAR\nمن ZEEKA\nإئتمانية **3204 (Apple Pay)\nفي 20/07/26 16:14\nالصرف المتبقي 28425.27 SAR",
+      "hash": "ee0ba601_101",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "حوالة واردة محلية\nإلى:9706*\nمبلغ:627.75 SAR\nمن:SAUD ALREHAILI\nعبر:ARAB NATIONAL BANK\nفي:20/07/26 22:08",
+      "hash": "238c17a4_102",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "سداد بطاقة ائتمانية\nمن حساب *9706\nالى بطاقة **3204\nمبلغ SAR 627.75\nفي 20/07/26 22:30\nالصرف المتبقي SAR 30479.40",
+      "hash": "d58d156e_111",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ5.00 SAR\nمن ZEEKA\nإئتمانية **3204 (Apple Pay)\nفي 21/07/26 07:15\nالصرف المتبقي 29048.27 SAR",
+      "hash": "9e19a783_101",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.25 SAR\nفي 21/07/26 07:15\nالصرف المتبقي 29048.27 SAR",
+      "hash": "3c5f5ed_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ20.00 SAR\nمن PETROLI C\nإئتمانية **3204 (Apple Pay)\nفي 21/07/26 07:19\nالصرف المتبقي 29028.41 SAR",
+      "hash": "2084a4b4_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.14 SAR\nفي 21/07/26 07:19\nالصرف المتبقي 29028.41 SAR",
+      "hash": "c2336ec5_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ5.50 SAR\nمن Company a\nإئتمانية **3204 (Apple Pay)\nفي 21/07/26 10:48\nالصرف المتبقي 29023.19 SAR",
+      "hash": "e32dede_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.28 SAR\nفي 21/07/26 10:48\nالصرف المتبقي 29023.19 SAR",
+      "hash": "96cb9f0e_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.06 SAR\nفي 21/07/26 17:09\nالصرف المتبقي 29014.25 SAR",
+      "hash": "d5459eb_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ9.00 SAR\nمن ZEEKA\nإئتمانية **3204 (Apple Pay)\nفي 21/07/26 17:09\nالصرف المتبقي 29014.25 SAR",
+      "hash": "2433df68_101",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ83.00 SAR\nمن Darb Al W\nإئتمانية **3204 (Apple Pay)\nفي 21/07/26 18:28\nالصرف المتبقي 28940.38 SAR",
+      "hash": "6eb88b6c_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 9.13 SAR\nفي 21/07/26 18:28\nالصرف المتبقي 28940.38 SAR",
+      "hash": "5620abaf_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ32.00 SAR\nمن restauran\nإئتمانية **3204 (Apple Pay)\nفي 22/07/26 07:01\nالصرف المتبقي 28909.98 SAR",
+      "hash": "418a0e11_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.60 SAR\nفي 22/07/26 07:01\nالصرف المتبقي 28909.98 SAR",
+      "hash": "6bd8042_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 5.78 SAR\nفي 22/07/26 07:47\nالصرف المتبقي 28090.76 SAR",
+      "hash": "782d5184_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ825.00 SAR\nمن JOTUN\nإئتمانية **3204 (Apple Pay)\nفي 22/07/26 07:47\nالصرف المتبقي 28090.76 SAR",
+      "hash": "8e0fc2d7_103",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ11.30 SAR\nمن Health Ho\nإئتمانية **3204 (Apple Pay)\nفي 22/07/26 09:11\nالصرف المتبقي 28079.54 SAR",
+      "hash": "1e8cec30_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.08 SAR\nفي 22/07/26 09:11\nالصرف المتبقي 28079.54 SAR",
+      "hash": "8f1da86c_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ38.00 SAR\nمن Sahara Ar\nإئتمانية **3204 (Apple Pay)\nفي 22/07/26 09:17\nالصرف المتبقي 28043.44 SAR",
+      "hash": "db923436_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.90 SAR\nفي 22/07/26 09:17\nالصرف المتبقي 28043.44 SAR",
+      "hash": "cd77ecc2_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.17 SAR\nفي 22/07/26 11:02\nالصرف المتبقي 28019.61 SAR",
+      "hash": "44367a9_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ24.00 SAR\nمن MARYAM BA\nإئتمانية **3204 (Apple Pay)\nفي 22/07/26 11:02\nالصرف المتبقي 28019.61 SAR",
+      "hash": "e009cdad_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ8.50 SAR\nمن ABRAR IBR\nإئتمانية **3204 (Apple Pay)\nفي 22/07/26 18:52\nالصرف المتبقي 28011.17 SAR",
+      "hash": "958a06c0_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.06 SAR\nفي 22/07/26 18:52\nالصرف المتبقي 28011.17 SAR",
+      "hash": "acff0c6c_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ100.01 SAR\nمن ARAMCO\nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 04:33\nالصرف المتبقي 27911.34 SAR",
+      "hash": "98b38de9_104",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.18 SAR\nفي 23/07/26 04:33\nالصرف المتبقي 27911.34 SAR",
+      "hash": "e0664e2f_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ14.00 SAR\nمن Shuroo Ca\nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 05:21\nالصرف المتبقي 27898.04 SAR",
+      "hash": "623f5690_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.70 SAR\nفي 23/07/26 05:21\nالصرف المتبقي 27898.04 SAR",
+      "hash": "cc05440_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ21.50 SAR\nمن ABDULLAH \nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 05:58\nالصرف المتبقي 27877.62 SAR",
+      "hash": "638c0619_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.08 SAR\nفي 23/07/26 05:58\nالصرف المتبقي 27877.62 SAR",
+      "hash": "39fc2241_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ450.00 SAR\nمن DAMASK HO\nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 09:09\nالصرف المتبقي 27430.77 SAR",
+      "hash": "d8126580_107",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 3.15 SAR\nفي 23/07/26 09:09\nالصرف المتبقي 27430.77 SAR",
+      "hash": "c71c890c_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 3.98 SAR\nفي 23/07/26 15:59\nالصرف المتبقي 27355.08 SAR",
+      "hash": "2af696d_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء إنترنت (Apple Pay)\nمبلغ 79.67 SAR\nبطاقة ائتمانية ***3204 \nمن HUNGERSTATION LLC\nالتاريخ 23/07/26 15:59\nالصرف المتبقي 27355.08 SAR",
+      "hash": "23bfbdd3_133",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.16 SAR\nفي 23/07/26 17:39\nالصرف المتبقي 27191.24 SAR",
+      "hash": "e11df329_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ165.00 SAR\nمن STRAWBERR\nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 17:39\nالصرف المتبقي 27191.24 SAR",
+      "hash": "14ebfd35_107",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.21 SAR\nفي 23/07/26 18:01\nالصرف المتبقي 27161.45 SAR",
+      "hash": "f570cc00_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ30.00 SAR\nمن Rural Fru\nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 18:01\nالصرف المتبقي 27161.45 SAR",
+      "hash": "c1743c55_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ25.00 SAR\nمن STRAWBERR\nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 18:31\nالصرف المتبقي 27136.63 SAR",
+      "hash": "30d83ae9_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.18 SAR\nفي 23/07/26 18:31\nالصرف المتبقي 27136.63 SAR",
+      "hash": "2bd1958f_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.04 SAR\nفي 23/07/26 19:21\nالصرف المتبقي 27130.67 SAR",
+      "hash": "9c0df0c0_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ6.00 SAR\nمن Maqha nai\nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 19:21\nالصرف المتبقي 27130.67 SAR",
+      "hash": "d051d5ac_105",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.11 SAR\nفي 23/07/26 21:51\nالصرف المتبقي 27115.78 SAR",
+      "hash": "88e0a481_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108234,
+      "text": "شراء-POS\nبـ15.00 SAR\nمن Al NASIM \nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 21:51\nالصرف المتبقي 27115.78 SAR",
+      "hash": "22ce7b7c_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "حوالة عكسية\nبطاقة ائتمانية **3204\nمبلغ 125.00 SAR\nلدى MAHALU ALMAZHAR ALANIA\nفي 23/07/26 22:02\nالرصيد المتبقي 27115.78 SAR",
+      "hash": "337cc661_122",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "شراء-POS\nبـ125.00 SAR\nمن MAHALU AL\nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 22:02\nالصرف المتبقي 26991.66 SAR",
+      "hash": "bec22fc5_107",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.88 SAR\nفي 23/07/26 22:02\nالصرف المتبقي 26991.66 SAR",
+      "hash": "f15e056e_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "شراء-POS\nبـ39.00 SAR\nمن EXPRESS F\nإئتمانية **3204 (Apple Pay)\nفي 23/07/26 23:01\nالصرف المتبقي 26954.61 SAR",
+      "hash": "3fbfee78_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 1.95 SAR\nفي 23/07/26 23:01\nالصرف المتبقي 26954.61 SAR",
+      "hash": "bc398bcf_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "حوالة واردة محلية\nإلى:9706*\nمبلغ:115 SAR\nمن:SAUD ALREHAILI\nعبر:ARAB NATIONAL BANK\nفي:24/07/26 00:18",
+      "hash": "28c17a0b_99",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "حوالة واردة محلية\nإلى:9706*\nمبلغ:278 SAR\nمن:سعود سليمان الرحيلي\nعبر:D360 bank\nفي:24/07/26 00:24",
+      "hash": "95bbb8c0_95",
+      "type": "IGNORE"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "شراء-POS\nبـ75.60 SAR\nمن AlReef Ag\nإئتمانية **3204 (Apple Pay)\nفي 24/07/26 08:57\nالصرف المتبقي 27272.54 SAR",
+      "hash": "f1e07c30_106",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.53 SAR\nفي 24/07/26 08:57\nالصرف المتبقي 27272.54 SAR",
+      "hash": "aef3b4a1_90",
+      "type": "AHLI_REFUND"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "شراء-POS\nبـ5.00 SAR\nمن ZEEKA\nإئتمانية **3204 (Apple Pay)\nفي 24/07/26 20:17\nالصرف المتبقي 27267.58 SAR",
+      "hash": "fce384a8_101",
+      "type": "AHLI_PURCHASE"
+    },
+    {
+      "addedAt": 1784960108235,
+      "text": "استرجاع نقدي لك\nفي بطاقة **3204\nمبلغ 0.04 SAR\nفي 24/07/26 20:17\nالصرف المتبقي 27267.58 SAR",
+      "hash": "4c3bd1e5_90",
+      "type": "AHLI_REFUND"
+    }
+  ],
   "auditLog": [],
   "errorLog": []
 }
