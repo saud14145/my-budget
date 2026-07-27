@@ -164,14 +164,14 @@
 </header>
 
 <div class="tabs">
-  <div class="tab active" data-tab="materials">المواد الخام</div>
-  <div class="tab" data-tab="products">تسعير المنتجات</div>
+  <div class="tab" data-tab="materials">المواد الخام</div>
+  <div class="tab active" data-tab="products">تسعير المنتجات</div>
   <div class="tab" data-tab="sync">المزامنة مع Git</div>
 </div>
 
 <div class="wrap">
   <!-- MATERIALS PANEL -->
-  <div class="panel" id="panel-materials" style="display: block;">
+  <div class="panel" id="panel-materials" style="display: none;">
     <h2>المواد الخام</h2>
     <p class="hint">أدخلي كل ماده مرة وحدة — تكلفة الوحدة تُحسب تلقائيًا من سعر العبوة وعدد الوحدات فيها.</p>
     <table>
@@ -297,6 +297,13 @@
         <td class="num">٣٨</td>
         <td class="num"><b>٠٫٣</b></td>
         <td><button class="btn-del" onclick="deleteMaterial(18)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>حلقات معدنية</td>
+        <td class="num">50</td>
+        <td class="num">١٨</td>
+        <td class="num"><b>٠٫٣٦</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(19)">حذف</button></td>
       </tr></tbody>
     </table>
     <div class="grid-form">
@@ -308,7 +315,7 @@
   </div>
 
   <!-- PRODUCTS PANEL -->
-  <div class="panel" id="panel-products" style="display: none;">
+  <div class="panel" id="panel-products" style="display: block;">
     <h2>منتجاتك</h2>
     <p class="hint">اضغطي على المواد المستخدمة في المنتج وحددي الكمية — الباقي يتحسب تلقائي.</p>
     <div id="products-list"><div class="prod-card">
@@ -347,6 +354,18 @@
       </div>
       <div class="bom-list"><span>ورق روكو 180 × 2 = ٠٫٤٦ ر.س</span><span>اضاءة × 1 = ٠٫٥٣ ر.س</span></div>
       <div class="actions-row"><button class="btn-del" onclick="deleteProduct(5)">حذف المنتج</button></div>
+    </div><div class="prod-card">
+      <div class="stamp good">رابح · ٣٨٫٨٢%</div>
+      <h3>ميدالية اذكار</h3>
+      <div class="prod-meta">
+        <div><span class="muted">تكلفة المواد</span><b>٠٫٨٩ ر.س</b></div>
+        <div><span class="muted">اليد العاملة</span><b>٤ ر.س</b></div>
+        <div><span class="muted">إجمالي التكلفة</span><b>٤٫٨٩ ر.س</b></div>
+        <div><span class="muted">سعر البيع</span><b>٨ ر.س</b></div>
+        <div><span class="muted">الربح</span><b>٣٫١١ ر.س</b></div>
+      </div>
+      <div class="bom-list"><span>ورق روكو 180 × 1 = ٠٫٢٣ ر.س</span><span>تغليف شفاف × 1 = ٠٫٣ ر.س</span><span>حلقات معدنية × 1 = ٠٫٣٦ ر.س</span></div>
+      <div class="actions-row"><button class="btn-del" onclick="deleteProduct(6)">حذف المنتج</button></div>
     </div></div>
 
     <hr class="divider">
@@ -408,6 +427,9 @@
     </div><div class="chip " onclick="toggleChip(event, 18)">
       <span>تغليف شفاف</span>
       
+    </div><div class="chip " onclick="toggleChip(event, 19)">
+      <span>حلقات معدنية</span>
+      
     </div></div>
     <div class="actions-row">
       <button class="btn-brass" onclick="addProduct()">+ حفظ المنتج</button>
@@ -451,7 +473,7 @@
 
 <script>
 // ---------------- DATA (hardcoded — replaced on export) ----------------
-let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9},{"id":10,"name":"كوب 8 اونز","units":50,"price":5.75},{"id":11,"name":"اعواد شاي","units":250,"price":11.5},{"id":12,"name":"مناديل مبلله","units":50,"price":11.5},{"id":13,"name":"ورق روكو 180","units":50,"price":11.5},{"id":14,"name":"اضاءة","units":100,"price":52.71},{"id":15,"name":"مغناطيس","units":100,"price":59.9},{"id":16,"name":"اعواد اسنان","units":1000,"price":7.76},{"id":17,"name":"كباسة","units":400,"price":18.45},{"id":18,"name":"تغليف شفاف","units":125,"price":38}],"products":[{"id":3,"name":"كوب ٨ اونز","labor":2,"price":4,"items":[{"materialId":2,"qty":1},{"materialId":10,"qty":1}]},{"id":4,"name":"كوب ٨ اونز مع تاق","labor":2,"price":5,"items":[{"materialId":2,"qty":1}]},{"id":5,"name":"كرت طاولة مضيء","labor":5,"price":9,"items":[{"materialId":13,"qty":2},{"materialId":14,"qty":1}]}],"nextMatId":19,"nextProdId":6,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
+let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9},{"id":10,"name":"كوب 8 اونز","units":50,"price":5.75},{"id":11,"name":"اعواد شاي","units":250,"price":11.5},{"id":12,"name":"مناديل مبلله","units":50,"price":11.5},{"id":13,"name":"ورق روكو 180","units":50,"price":11.5},{"id":14,"name":"اضاءة","units":100,"price":52.71},{"id":15,"name":"مغناطيس","units":100,"price":59.9},{"id":16,"name":"اعواد اسنان","units":1000,"price":7.76},{"id":17,"name":"كباسة","units":400,"price":18.45},{"id":18,"name":"تغليف شفاف","units":125,"price":38},{"id":19,"name":"حلقات معدنية","units":50,"price":18}],"products":[{"id":3,"name":"كوب ٨ اونز","labor":2,"price":4,"items":[{"materialId":2,"qty":1},{"materialId":10,"qty":1}]},{"id":4,"name":"كوب ٨ اونز مع تاق","labor":2,"price":5,"items":[{"materialId":2,"qty":1}]},{"id":5,"name":"كرت طاولة مضيء","labor":5,"price":9,"items":[{"materialId":13,"qty":2},{"materialId":14,"qty":1}]},{"id":6,"name":"ميدالية اذكار","labor":4,"price":8,"items":[{"materialId":13,"qty":1},{"materialId":18,"qty":1},{"materialId":19,"qty":1}]}],"nextMatId":20,"nextProdId":7,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
 // NOTE: the GitHub token is intentionally kept OUT of DATA (and therefore out of any
 // exported/pushed file) because GitHub's push-protection rejects commits containing
 // recognizable secrets. Instead it is saved in this browser's localStorage only, so it
