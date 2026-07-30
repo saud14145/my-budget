@@ -164,14 +164,14 @@
 </header>
 
 <div class="tabs">
-  <div class="tab" data-tab="materials">المواد الخام</div>
+  <div class="tab active" data-tab="materials">المواد الخام</div>
   <div class="tab" data-tab="products">تسعير المنتجات</div>
-  <div class="tab active" data-tab="sync">المزامنة مع Git</div>
+  <div class="tab" data-tab="sync">المزامنة مع Git</div>
 </div>
 
 <div class="wrap">
   <!-- MATERIALS PANEL -->
-  <div class="panel" id="panel-materials" style="display: none;">
+  <div class="panel" id="panel-materials" style="display: block;">
     <h2>المواد الخام</h2>
     <p class="hint">أدخلي كل ماده مرة وحدة — تكلفة الوحدة تُحسب تلقائيًا من سعر العبوة وعدد الوحدات فيها.</p>
     <table>
@@ -290,6 +290,13 @@
         <td class="num">١٨٫٤٥</td>
         <td class="num"><b>٠٫٠٥</b></td>
         <td><button class="btn-del" onclick="deleteMaterial(17)">حذف</button></td>
+      </tr>
+      <tr>
+        <td>ورق لامع 200</td>
+        <td class="num">50</td>
+        <td class="num">٢٠</td>
+        <td class="num"><b>٠٫٤</b></td>
+        <td><button class="btn-del" onclick="deleteMaterial(18)">حذف</button></td>
       </tr></tbody>
     </table>
     <div class="grid-form">
@@ -398,6 +405,9 @@
     </div><div class="chip " onclick="toggleChip(event, 17)">
       <span>كباسة</span>
       
+    </div><div class="chip " onclick="toggleChip(event, 18)">
+      <span>ورق لامع 200</span>
+      
     </div></div>
     <div class="actions-row">
       <button class="btn-brass" onclick="addProduct()">+ حفظ المنتج</button>
@@ -405,7 +415,7 @@
   </div>
 
   <!-- SYNC PANEL -->
-  <div class="panel" id="panel-sync" style="display: block;">
+  <div class="panel" id="panel-sync" style="display: none;">
     <h2>المزامنة التلقائية مع Git</h2>
     <p class="hint">اربطي الدفتر بمستودع على GitHub — كل تغيير (إضافة/حذف) يُرفع تلقائيًا كنسخة كاملة من الملف بعد ثوانٍ من التوقف عن الكتابة. تقدرين أيضًا ترفعين أو تجلبين آخر نسخة يدويًا.</p>
 
@@ -441,7 +451,7 @@
 
 <script>
 // ---------------- DATA (hardcoded — replaced on export) ----------------
-let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9},{"id":10,"name":"كوب 8 اونز","units":50,"price":5.75},{"id":11,"name":"اعواد شاي","units":250,"price":11.5},{"id":12,"name":"مناديل مبلله","units":50,"price":11.5},{"id":13,"name":"ورق روكو 180","units":50,"price":11.5},{"id":14,"name":"اضاءة","units":100,"price":52.71},{"id":15,"name":"مغناطيس","units":100,"price":59.9},{"id":16,"name":"اعواد اسنان","units":1000,"price":7.76},{"id":17,"name":"كباسة","units":400,"price":18.45}],"products":[{"id":3,"name":"كوب ٨ اونز","labor":2,"price":4,"items":[{"materialId":2,"qty":1},{"materialId":10,"qty":1}]},{"id":4,"name":"كوب ٨ اونز مع تاق","labor":2,"price":5,"items":[{"materialId":2,"qty":1}]},{"id":5,"name":"كرت طاولة مضيء","labor":5,"price":9,"items":[{"materialId":13,"qty":2},{"materialId":14,"qty":1}]}],"nextMatId":18,"nextProdId":6,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
+let DATA = {"materials":[{"id":1,"name":"ورق مقمش 240","units":50,"price":24},{"id":2,"name":"ورق مقمش 180","units":50,"price":19},{"id":3,"name":"ورق لامع 100 قرام","units":50,"price":19},{"id":4,"name":"ورق استكر لامع","units":50,"price":29},{"id":5,"name":"ورق معطر","units":50,"price":20},{"id":6,"name":"كوب 7 اونز","units":50,"price":7},{"id":7,"name":"كوب 9 اونز","units":50,"price":7},{"id":9,"name":"علك","units":75,"price":9},{"id":10,"name":"كوب 8 اونز","units":50,"price":5.75},{"id":11,"name":"اعواد شاي","units":250,"price":11.5},{"id":12,"name":"مناديل مبلله","units":50,"price":11.5},{"id":13,"name":"ورق روكو 180","units":50,"price":11.5},{"id":14,"name":"اضاءة","units":100,"price":52.71},{"id":15,"name":"مغناطيس","units":100,"price":59.9},{"id":16,"name":"اعواد اسنان","units":1000,"price":7.76},{"id":17,"name":"كباسة","units":400,"price":18.45},{"id":18,"name":"ورق لامع 200","units":50,"price":20}],"products":[{"id":3,"name":"كوب ٨ اونز","labor":2,"price":4,"items":[{"materialId":2,"qty":1},{"materialId":10,"qty":1}]},{"id":4,"name":"كوب ٨ اونز مع تاق","labor":2,"price":5,"items":[{"materialId":2,"qty":1}]},{"id":5,"name":"كرت طاولة مضيء","labor":5,"price":9,"items":[{"materialId":13,"qty":2},{"materialId":14,"qty":1}]}],"nextMatId":19,"nextProdId":6,"settings":{"owner":"saud14145","repo":"my-budget","branch":"main","path":"index.html","autoSync":true}};
 // NOTE: the GitHub token is intentionally kept OUT of DATA (and therefore out of any
 // exported/pushed file) because GitHub's push-protection rejects commits containing
 // recognizable secrets. Instead it is saved in this browser's localStorage only, so it
